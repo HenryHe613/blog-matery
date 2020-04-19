@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://henryhe613.github.io/blog/"/>
-  <updated>2020-04-19T03:13:30.740Z</updated>
+  <updated>2020-04-19T12:43:19.168Z</updated>
   <id>https://henryhe613.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>第一次使用Github+Hexo</title>
+    <link href="https://henryhe613.github.io/blog/2020/04/19/di-yi-ci-shi-yong-github-hexo/"/>
+    <id>https://henryhe613.github.io/blog/2020/04/19/di-yi-ci-shi-yong-github-hexo/</id>
+    <published>2020-04-19T11:57:46.000Z</published>
+    <updated>2020-04-19T12:43:19.168Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;以小白的眼光教你搭建Github-Hexo&quot;&gt;&lt;a href=&quot;#以小白的眼光教你搭建Github-Hexo&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>article title</title>
     <link href="https://henryhe613.github.io/blog/2020/04/18/article-title/"/>
     <id>https://henryhe613.github.io/blog/2020/04/18/article-title/</id>
     <published>2020-04-18T14:14:57.000Z</published>
-    <updated>2020-04-19T03:13:30.740Z</updated>
+    <updated>2020-04-19T11:57:06.306Z</updated>
     
     <summary type="html">
     
