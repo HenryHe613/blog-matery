@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://henryhe613.github.io/blog/"/>
-  <updated>2020-04-25T08:55:59.274Z</updated>
+  <updated>2020-04-25T09:20:20.406Z</updated>
   <id>https://henryhe613.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Yellow Pages</title>
+    <link href="https://henryhe613.github.io/blog/2020/04/25/yellow-pages/"/>
+    <id>https://henryhe613.github.io/blog/2020/04/25/yellow-pages/</id>
+    <published>2020-04-25T09:16:53.000Z</published>
+    <updated>2020-04-25T09:20:20.406Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Welcome-to-Yellow-Pages&quot;&gt;&lt;a href=&quot;#Welcome-to-Yellow-Pages&quot; class=&quot;headerlink&quot; title=&quot;Welcome to Yellow Pages&quot;&gt;&lt;/a&gt;Welcome to
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>第一次使用Github+Hexo</title>
