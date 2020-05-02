@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yelow.ga/"/>
-  <updated>2020-05-01T13:26:31.032Z</updated>
+  <updated>2020-05-02T08:27:29.861Z</updated>
   <id>https://www.yelow.ga/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>梯子</title>
+    <link href="https://www.yelow.ga/2020/05/02/ti-zi/"/>
+    <id>https://www.yelow.ga/2020/05/02/ti-zi/</id>
+    <published>2020-05-02T08:18:06.000Z</published>
+    <updated>2020-05-02T08:27:29.861Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;最简单用“梯子”的方法&quot;&gt;&lt;a href=&quot;#最简单用“梯子”的方法&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo插件</title>
