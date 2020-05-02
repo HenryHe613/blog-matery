@@ -284,6 +284,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -472,12 +485,35 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">Syntax highlighted code block</span><br><span class="line"></span><br><span class="line"><span class="section"># Header 1</span></span><br><span class="line"><span class="section">## Header 2</span></span><br><span class="line"><span class="section">### Header 3</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">- </span>Bulleted</span><br><span class="line"><span class="bullet">- </span>List</span><br><span class="line"></span><br><span class="line"><span class="bullet">1. </span>Numbered</span><br><span class="line"><span class="bullet">2. </span>List</span><br><span class="line"></span><br><span class="line"><span class="strong">**Bold**</span> and <span class="emphasis">_Italic_</span> and <span class="code">`Code`</span> text</span><br><span class="line"></span><br><span class="line">[<span class="string">Link</span>](<span class="link">url</span>) and ![<span class="string">Image</span>](<span class="link">src</span>)</span><br></pre></td></tr></table></figure>
+```markdown
+Syntax highlighted code block
 
-<p>For more details see <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="noopener">GitHub Flavored Markdown</a>.</p>
-<h3 id="Jekyll-Themes"><a href="#Jekyll-Themes" class="headerlink" title="Jekyll Themes"></a>Jekyll Themes</h3><p>Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/HenryHe613/yellow/settings" target="_blank" rel="noopener">repository settings</a>. The name of this theme is saved in the Jekyll <code>_config.yml</code> configuration file.</p>
-<h3 id="Support-or-Contact"><a href="#Support-or-Contact" class="headerlink" title="Support or Contact"></a>Support or Contact</h3><p>Having trouble with Pages? Check out our <a href="https://help.github.com/categories/github-pages-basics/" target="_blank" rel="noopener">documentation</a> or <a href="https://github.com/contact" target="_blank" rel="noopener">contact support</a> and we’ll help you sort it out.<br>–&gt;</p>
---><script>
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HenryHe613/yellow/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-->
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }

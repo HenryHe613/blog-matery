@@ -284,6 +284,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -452,9 +465,8 @@
 <p>但是后来，我在知乎上遇到了一个大佬，和我一样呢，也是初三。推荐一下TA的博客吧，做个友链。</p>
 <p><img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3488729154,2763255392&amp;fm=26&amp;gp=0.jpg" alt="hh"></p>
 <p>这是TA的Blog：</p>
-<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://blog.cyfan.top/</span><br></pre></td></tr></tbody></table></figure>
-
-<p>话不多说，直接讲怎么搭建Hexo。</p>
+<pre><code>https://blog.cyfan.top/ 
+</code></pre><p>话不多说，直接讲怎么搭建Hexo。</p>
 <h2 id="建立Github仓库"><a href="#建立Github仓库" class="headerlink" title="建立Github仓库"></a>建立Github仓库</h2><blockquote>
 <p>注释：这个github仓库是用来放网站的！！！</p>
 </blockquote>

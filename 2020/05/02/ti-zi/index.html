@@ -284,6 +284,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -468,6 +481,8 @@
 <p><img src="09.JPG" alt="b"></p>
 <p>点一下中间绿色的火箭，然后右上角就会出现<code>VPN</code>的图标，你再试试访问<a href="www.google.com">谷歌</a></p>
 <p>可以了吧？</p>
+<h2 id="Android设备使用梯子"><a href="#Android设备使用梯子" class="headerlink" title="Android设备使用梯子"></a>Android设备使用梯子</h2><p>访问地址：<a href="https://www.xfapp78.com/" target="_blank" rel="noopener">旋风官网</a></p>
+<p>选择<code>Android下载</code>。</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -644,9 +659,9 @@ iPhone/iPad安装“梯子”首先去App Store搜索Testflight，下载Tes
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            1https://blog.gclmit.club/archives/1a205ea0.html
+                            https://blog.gclmit.club/archives/1a205ea0.html
         document.querySelectorAll('.github-emoji')
-          .forEach(e
+          .forEach(el
                         
                     </div>
                     <div class="publish-info">
