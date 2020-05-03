@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yelow.ga/"/>
-  <updated>2020-05-03T09:35:36.185Z</updated>
+  <updated>2020-05-03T12:13:03.090Z</updated>
   <id>https://www.yelow.ga/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>史上最好用的编辑器</title>
+    <link href="https://www.yelow.ga/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/"/>
+    <id>https://www.yelow.ga/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/</id>
+    <published>2020-05-03T12:05:05.000Z</published>
+    <updated>2020-05-03T12:13:03.090Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;之前用win自带的&lt;code&gt;记事本&lt;/code&gt;，功能太鸡肋了。啥都没有，而且最不能忍受的就是，微软的程序猿&lt;del&gt;自己认为&lt;/del&gt;很聪明，给UTF-8加了BOM。&lt;/p&gt;
+&lt;p&gt;然后，许多代码出错emmm&lt;/p&gt;
+&lt;p&gt;直接上链接：&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件推荐" scheme="https://www.yelow.ga/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+    
+    
+      <category term="NotePad++" scheme="https://www.yelow.ga/tags/NotePad/"/>
+    
+  </entry>
   
   <entry>
     <title>梯子</title>

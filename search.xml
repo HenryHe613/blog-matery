@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>史上最好用的编辑器</title>
+      <link href="/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/"/>
+      <url>/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/</url>
+      
+        <content type="html"><![CDATA[<p>之前用win自带的<code>记事本</code>，功能太鸡肋了。啥都没有，而且最不能忍受的就是，微软的程序猿<del>自己认为</del>很聪明，给UTF-8加了BOM。</p><p>然后，许多代码出错emmm</p><p>直接上链接：<a href="npp.7.8.5.Installer.x64.exe">这里，v7.8.5_x64</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件推荐 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> NotePad++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>梯子</title>
       <link href="/2020/05/02/ti-zi/"/>
       <url>/2020/05/02/ti-zi/</url>
