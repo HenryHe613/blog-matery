@@ -67,19 +67,6 @@
     
     
     <entry>
-      <title>最简单用梯子的方法</title>
-      <link href="/2020/05/01/zui-jian-dan-yong-ti-zi-de-fang-fa/"/>
-      <url>/2020/05/01/zui-jian-dan-yong-ti-zi-de-fang-fa/</url>
-      
-        <content type="html"><![CDATA[<h1 id="最简单用“梯子”的方法"><a href="#最简单用“梯子”的方法" class="headerlink" title="最简单用“梯子”的方法"></a>最简单用“梯子”的方法</h1><p>最近由于疫情，国外媒体对政治的报道越来越多，我国<code>GFW</code>对科学上网封杀越来越多。像我一样依赖于Google的人这无疑是大难。</p><h2 id="iPhone-iPad安装“梯子”"><a href="#iPhone-iPad安装“梯子”" class="headerlink" title="iPhone/iPad安装“梯子”"></a>iPhone/iPad安装“梯子”</h2><p>首先去<code>App Store</code>搜索<code>Testflight</code>，下载<code>Testflight</code>。</p><p>然后访问<code>旋风官网</code>。地址：<a href="https://www.xfapp78.com/" target="_blank" rel="noopener">旋风官网</a></p><p>点击<code>IOS下载</code>，</p><p>就像这样：</p><p><img src="01.png" alt="JvU9yR.png"></p><p>点击<code>下载【旋风加速器】</code></p><p>会弹出以下界面：</p><p><img src="02.png" alt="JvNxW4.png"></p><p>选择<code>安装</code></p><p><img src="03.png" alt="JvNvYF.png"></p><p><img src="04.png" alt="JvUSSJ.png"></p><p>选择<code>继续连接</code></p><p><img src="05.png" alt="JvUiex.png"></p><p>选择<code>允许</code></p><p><img src="06.png" alt="JvUFw6.png"></p><p>点一下中间绿色的火箭，然后右上角就会出现<code>VPN</code>的图标，你再试试访问<a href="www.google.com">谷歌</a></p><p>可以了吧？</p><p><img src="07.png" alt="JvUpl9.png"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Yellow Pages</title>
       <link href="/2020/04/25/yellow-pages/"/>
       <url>/2020/04/25/yellow-pages/</url>
