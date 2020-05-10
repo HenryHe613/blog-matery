@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>申请Freenom域名的正确做法</title>
+      <link href="/2020/05/10/shen-qing-freenom-yu-ming-de-zheng-que-zuo-fa/"/>
+      <url>/2020/05/10/shen-qing-freenom-yu-ming-de-zheng-que-zuo-fa/</url>
+      
+        <content type="html"><![CDATA[<h1 id="申请Freenom域名的正确做法"><a href="#申请Freenom域名的正确做法" class="headerlink" title="申请Freenom域名的正确做法"></a>申请Freenom域名的正确做法</h1><p><a href="https://www.freenom.com/zh/index.html?lang=zh" target="_blank" rel="noopener">Freenom官网</a></p><blockquote><p>注意：本教程是站长的亲身经验，会有很多坑，请大家多多包涵。</p></blockquote><p>对于新手个人站长，买一个几十块甚至几百块的域名显然不太合适。所以，Freenom出现了。它能帮我们免费注册.ga .ml .tk .gq .cf的顶级域名。这些顶级域名都是小国家的，分别是加蓬、马里共和国、托克劳群岛、赤道几内亚和中非共和国。<br>既然天上掉那么大个馅饼，谁不要呢？于是百度上出现了一堆关于Freenom域名申请的教程。然而，经过我的检验，这些教程要么是 <del>菜</del> 有误，要么就是 <del>赚流量</del> 不会。</p><h3 id="主要步骤："><a href="#主要步骤：" class="headerlink" title="主要步骤："></a>主要步骤：</h3><p> 1.加快Freenom的访问速度<br> 2.注册Freenom账号<br> 3.注册免费域名<br> 4.更改域名解析</p><h1 id="第一次尝试"><a href="#第一次尝试" class="headerlink" title="第一次尝试"></a>第一次尝试</h1><p>让我们先去Freenom官网瞅瞅。</p><p><a href="https://www.freenom.com/zh/index.html?lang=zh" target="_blank" rel="noopener">Freenom官网</a></p><p>好慢，还没有图片，真丑。</p><p><img src="https://s1.ax1x.com/2020/05/10/Y8VKSJ.png" alt="Y8VKSJ.png"></p><p>更奇怪的是，，，我居然能够把搜索框的文字删掉。。。</p><p><img src="https://s1.ax1x.com/2020/05/10/Y8VlO1.png" alt="Y8VlO1.png"></p><p>这可把我吓坏了。这网站居然长这样。</p><p>上网一搜，嗯嗯，似乎需要梯子。</p><p>可以看看我之前的博文<a href="https://www.yelow.ga/2020/05/02/ti-zi/">梯子</a> ，但是这里用不着。但是我之前就用了，可以注册，但是更繁琐，我找了一个更好的方法。</p><p>但是还是有必要介绍原方法。</p><p>我拿来梯子，爬！！！</p><p>爬上了，才发现Freenom的网站原来还行，图片挺好的。于是输入我想要的域名，点击<code>Check availability</code>,搜索域名。</p><p><img src="https://s1.ax1x.com/2020/05/10/Y8epKs.png" alt="Y8epKs.png"></p><p>很好，我找了我要的域名。</p><h1 id="注册Freenom账号"><a href="#注册Freenom账号" class="headerlink" title="注册Freenom账号"></a>注册Freenom账号</h1><p>这一步网上很多教程都省略了，没有Freenom账号，你在搜索域名时根本无法选域名。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Freenom </tag>
+            
+            <tag> 免费域名申请 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>史上最好用的编辑器</title>
       <link href="/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/"/>
       <url>/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/</url>
