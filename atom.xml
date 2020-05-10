@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Henry&#39;s Blog</title>
+  <title>南岩のBlog</title>
   
-  <subtitle>Blog For the Internet</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yelow.ga/"/>
@@ -10,7 +10,7 @@
   <id>https://www.yelow.ga/</id>
   
   <author>
-    <name>HenryHe</name>
+    <name>南岩</name>
     
   </author>
   
@@ -159,52 +159,6 @@
         
         
           &lt;h1 id=&quot;以小白的眼光教你搭建Github-Hexo&quot;&gt;&lt;a href=&quot;#以小白的眼光教你搭建Github-Hexo&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>article title</title>
-    <link href="https://www.yelow.ga/2020/04/18/article-title/"/>
-    <id>https://www.yelow.ga/2020/04/18/article-title/</id>
-    <published>2020-04-18T14:14:57.000Z</published>
-    <updated>2020-05-10T09:48:59.861Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;这是我的第一篇博客&quot;&gt;&lt;a href=&quot;#这是我的第一篇博客&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://www.yelow.ga/2020/04/18/hello-world/"/>
-    <id>https://www.yelow.ga/2020/04/18/hello-world/</id>
-    <published>2020-04-18T13:17:41.092Z</published>
-    <updated>2020-04-18T13:17:41.092Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
         
       
     
