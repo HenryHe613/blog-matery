@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>个人常用网址/代码</title>
+      <link href="/2020/05/16/ge-ren-chang-yong-wang-zhi-dai-ma/"/>
+      <url>/2020/05/16/ge-ren-chang-yong-wang-zhi-dai-ma/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://dash.cloudflare.com/" target="_blank" rel="noopener">CloudFlare-Dashbroad</a></p><p><a href="https://github.com/" target="_blank" rel="noopener">Github</a></p><p><a href="https://cn.bing.com/" target="_blank" rel="noopener">Bing</a></p><p><a href="https://www2.bing.com/" target="_blank" rel="noopener">Bing-2</a></p><p><a href="https://www.magi.com/" target="_blank" rel="noopener">Magi</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网址and代码 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>申请Freenom域名的正确做法</title>
       <link href="/2020/05/10/shen-qing-freenom-yu-ming-de-zheng-que-zuo-fa/"/>
       <url>/2020/05/10/shen-qing-freenom-yu-ming-de-zheng-que-zuo-fa/</url>
