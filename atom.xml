@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yelow.ga/"/>
-  <updated>2020-05-20T12:52:35.224Z</updated>
+  <updated>2020-05-22T11:27:28.537Z</updated>
   <id>https://www.yelow.ga/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.yelow.ga/2020/05/20/jin-tian-de-ying-yu-fan-wen/"/>
     <id>https://www.yelow.ga/2020/05/20/jin-tian-de-ying-yu-fan-wen/</id>
     <published>2020-05-20T10:11:55.000Z</published>
-    <updated>2020-05-20T12:52:35.224Z</updated>
+    <updated>2020-05-22T11:27:28.537Z</updated>
     
     <summary type="html">
     
@@ -36,6 +36,8 @@
     </summary>
     
     
+      <category term="Study" scheme="https://www.yelow.ga/categories/Study/"/>
+    
     
   </entry>
   
@@ -44,7 +46,7 @@
     <link href="https://www.yelow.ga/2020/05/17/windows-ruan-jian-xia-zai-ji-qiao/"/>
     <id>https://www.yelow.ga/2020/05/17/windows-ruan-jian-xia-zai-ji-qiao/</id>
     <published>2020-05-17T09:08:51.000Z</published>
-    <updated>2020-05-17T10:02:39.908Z</updated>
+    <updated>2020-05-22T11:22:59.571Z</updated>
     
     <summary type="html">
     
@@ -59,7 +61,7 @@
     </summary>
     
     
-      <category term="上网技巧" scheme="https://www.yelow.ga/categories/%E4%B8%8A%E7%BD%91%E6%8A%80%E5%B7%A7/"/>
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
     
     
       <category term="软件" scheme="https://www.yelow.ga/tags/%E8%BD%AF%E4%BB%B6/"/>
@@ -71,7 +73,7 @@
     <link href="https://www.yelow.ga/2020/05/17/dian-xin-wang-guan-f612-po-jie/"/>
     <id>https://www.yelow.ga/2020/05/17/dian-xin-wang-guan-f612-po-jie/</id>
     <published>2020-05-17T01:57:00.000Z</published>
-    <updated>2020-05-17T08:14:05.442Z</updated>
+    <updated>2020-05-22T11:26:45.873Z</updated>
     
     <summary type="html">
     
@@ -86,7 +88,7 @@
     </summary>
     
     
-      <category term="上网技巧" scheme="https://www.yelow.ga/categories/%E4%B8%8A%E7%BD%91%E6%8A%80%E5%B7%A7/"/>
+      <category term="Computer Skills" scheme="https://www.yelow.ga/categories/Computer-Skills/"/>
     
     
       <category term="电信" scheme="https://www.yelow.ga/tags/%E7%94%B5%E4%BF%A1/"/>
@@ -100,7 +102,7 @@
     <link href="https://www.yelow.ga/2020/05/16/ge-ren-chang-yong-wang-zhi-dai-ma/"/>
     <id>https://www.yelow.ga/2020/05/16/ge-ren-chang-yong-wang-zhi-dai-ma/</id>
     <published>2020-05-16T12:08:44.000Z</published>
-    <updated>2020-05-17T09:02:53.942Z</updated>
+    <updated>2020-05-22T11:25:11.340Z</updated>
     
     <summary type="html">
     
@@ -115,7 +117,7 @@
     </summary>
     
     
-      <category term="个人" scheme="https://www.yelow.ga/categories/%E4%B8%AA%E4%BA%BA/"/>
+      <category term="Computer Skills" scheme="https://www.yelow.ga/categories/Computer-Skills/"/>
     
     
       <category term="网址and代码" scheme="https://www.yelow.ga/tags/%E7%BD%91%E5%9D%80and%E4%BB%A3%E7%A0%81/"/>
@@ -127,7 +129,7 @@
     <link href="https://www.yelow.ga/2020/05/10/shen-qing-freenom-yu-ming-de-zheng-que-zuo-fa/"/>
     <id>https://www.yelow.ga/2020/05/10/shen-qing-freenom-yu-ming-de-zheng-que-zuo-fa/</id>
     <published>2020-05-10T11:20:31.000Z</published>
-    <updated>2020-05-16T11:07:57.306Z</updated>
+    <updated>2020-05-22T11:28:16.266Z</updated>
     
     <summary type="html">
     
@@ -142,6 +144,8 @@
     </summary>
     
     
+      <category term="Computer Skills" scheme="https://www.yelow.ga/categories/Computer-Skills/"/>
+    
     
       <category term="Freenom" scheme="https://www.yelow.ga/tags/Freenom/"/>
     
@@ -154,7 +158,7 @@
     <link href="https://www.yelow.ga/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/"/>
     <id>https://www.yelow.ga/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/</id>
     <published>2020-05-03T12:05:05.000Z</published>
-    <updated>2020-05-16T11:16:19.733Z</updated>
+    <updated>2020-05-22T11:23:57.418Z</updated>
     
     <summary type="html">
     
@@ -171,7 +175,7 @@
     </summary>
     
     
-      <category term="软件推荐" scheme="https://www.yelow.ga/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
     
     
       <category term="NotePad++" scheme="https://www.yelow.ga/tags/NotePad/"/>
@@ -183,7 +187,7 @@
     <link href="https://www.yelow.ga/2020/05/02/ti-zi/"/>
     <id>https://www.yelow.ga/2020/05/02/ti-zi/</id>
     <published>2020-05-02T08:18:06.000Z</published>
-    <updated>2020-05-16T11:14:56.878Z</updated>
+    <updated>2020-05-22T11:29:09.969Z</updated>
     
     <summary type="html">
     
@@ -198,37 +202,10 @@
     </summary>
     
     
-      <category term="上网技巧" scheme="https://www.yelow.ga/categories/%E4%B8%8A%E7%BD%91%E6%8A%80%E5%B7%A7/"/>
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
     
     
       <category term="梯子" scheme="https://www.yelow.ga/tags/%E6%A2%AF%E5%AD%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo插件</title>
-    <link href="https://www.yelow.ga/2020/05/01/hexo-cha-jian/"/>
-    <id>https://www.yelow.ga/2020/05/01/hexo-cha-jian/</id>
-    <published>2020-05-01T13:24:00.000Z</published>
-    <updated>2020-05-16T11:34:59.532Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;pre&gt;&lt;code&gt;https://blog.gclmit.club/archives/1a205ea0.html&lt;/code&gt;&lt;/pre&gt;&lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-        
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Hexo" scheme="https://www.yelow.ga/tags/Hexo/"/>
     
   </entry>
   
@@ -237,7 +214,7 @@
     <link href="https://www.yelow.ga/2020/04/25/yellow-pages/"/>
     <id>https://www.yelow.ga/2020/04/25/yellow-pages/</id>
     <published>2020-04-25T09:16:53.000Z</published>
-    <updated>2020-05-20T12:00:43.474Z</updated>
+    <updated>2020-05-22T11:25:36.186Z</updated>
     
     <summary type="html">
     
@@ -251,6 +228,8 @@
     
     </summary>
     
+    
+      <category term="Study" scheme="https://www.yelow.ga/categories/Study/"/>
     
     
       <category term="项目" scheme="https://www.yelow.ga/tags/%E9%A1%B9%E7%9B%AE/"/>
