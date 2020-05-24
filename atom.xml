@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yelow.ga/"/>
-  <updated>2020-05-24T02:20:08.984Z</updated>
+  <updated>2020-05-24T02:43:33.942Z</updated>
   <id>https://www.yelow.ga/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>去掉Chromium的禁用开发者扩展提示</title>
+    <link href="https://www.yelow.ga/2020/05/24/qu-diao-chromium-de-jin-yong-kai-fa-zhe-kuo-zhan-ti-shi/"/>
+    <id>https://www.yelow.ga/2020/05/24/qu-diao-chromium-de-jin-yong-kai-fa-zhe-kuo-zhan-ti-shi/</id>
+    <published>2020-05-24T02:24:23.000Z</published>
+    <updated>2020-05-24T02:43:33.942Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;去掉Chromium的禁用开发者扩展提示&quot;&gt;&lt;a href=&quot;#去掉Chromium的禁用开发者扩展提示&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="Chromium" scheme="https://www.yelow.ga/tags/Chromium/"/>
+    
+      <category term="Edge" scheme="https://www.yelow.ga/tags/Edge/"/>
+    
+  </entry>
   
   <entry>
     <title>新旧Edge浏览器共存</title>

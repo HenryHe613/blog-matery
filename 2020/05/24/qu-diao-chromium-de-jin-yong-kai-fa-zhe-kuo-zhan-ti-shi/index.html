@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="史上最好用的编辑器, 南岩のBlog">
+    <meta name="keywords" content="去掉Chromium的禁用开发者扩展提示, 南岩のBlog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>史上最好用的编辑器 | 南岩のBlog</title>
+    <title>去掉Chromium的禁用开发者扩展提示 | 南岩のBlog</title>
     <link rel="icon" type="image/png" href="https://s1.ax1x.com/2020/05/22/YXWq6e.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -300,12 +300,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://s1.ax1x.com/2020/05/16/YckZJU.md.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://s1.ax1x.com/2020/05/24/YzCq91.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">史上最好用的编辑器</h1>
+                    <h1 class="description center-align post-title">去掉Chromium的禁用开发者扩展提示</h1>
                 </div>
             </div>
         </div>
@@ -422,8 +422,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/NotePad/">
-                                <span class="chip bg-color">NotePad++</span>
+                            <a href="/tags/Chromium/">
+                                <span class="chip bg-color">Chromium</span>
+                            </a>
+                        
+                            <a href="/tags/Edge/">
+                                <span class="chip bg-color">Edge</span>
                             </a>
                         
                     </div>
@@ -447,21 +451,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-03
+                    2020-05-24
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-22
+                    2020-05-24
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    148
+                    316
                 </div>
                 
 
@@ -483,13 +487,21 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>之前用win自带的<code>记事本</code>，功能太鸡肋了。啥都没有，而且最不能忍受的就是，微软的程序猿<del>自己认为</del>很聪明，给UTF-8加了BOM。</p>
-<p>然后，许多代码出错emmm</p>
-<p>直接上链接：<a href="npp.7.8.5.Installer.x64.exe">这里，v7.8.5_x64</a></p>
-<p>附上哈希值，怕<code>CloudFlare</code>的<code>CDN</code>啥时候抽了，下载出错：</p>
-<pre><code>CRC32: 80A1EBD6
-MD5: CD8C07848895C989C81C9D88C8BFEA88
-SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试"><a href="#压力测试" class="headerlink" title="压力测试"></a>压力测试</h1><p><a href="a.zip">Start Test</a></p>
+                <h1 id="去掉Chromium的禁用开发者扩展提示"><a href="#去掉Chromium的禁用开发者扩展提示" class="headerlink" title="去掉Chromium的禁用开发者扩展提示"></a>去掉Chromium的禁用开发者扩展提示</h1><p>对于开发人员来说，Chrome显然是一个必需品。庞大的插件库十分方便。<br>但是Google不知为什么就加了这么一个弹出，十分恶心。</p>
+<p>祭出大神的dll替换工具，可点击下载。</p>
+<p><a href="去除Chrome请停用以开发者模式运行的扩展程序.rar">去除Chrome请停用以开发者模式运行的扩展程序</a></p>
+<p>edge的二次开发做的不错，都把chrome.dll给改了。</p>
+<p>像Cent Browser就没改，不过Cent和Chrome的图标确实有点像~~</p>
+<p>安装目录在这里：</p>
+<pre><code>C:\Program Files (x86)\Microsoft\Edge\Application\83.0.478.37</code></pre><blockquote>
+<p><em>注意</em><br>这是默认的安装路径，不同的版本号可能有所不同！！！</p>
+</blockquote>
+<p>记得把Edge关了，然后我们把msedge.dll改成chrome.dll，把刚刚下载的软件解压，拷贝到edge根目录下（就是刚刚代码块里的）</p>
+<p>用管理员模式运行“去除Chrome请停用以开发者模式运行的扩展程序”，</p>
+<p><img src="https://s1.ax1x.com/2020/05/24/YziUL8.png" alt="YziUL8.png"></p>
+<p>点<code>应用</code>，成功后，把dll的名字改回msedge.dll。</p>
+<p>再打开edge。</p>
+<p>是不是OK了？</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -533,7 +545,7 @@ SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.yelow.ga/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/">https://www.yelow.ga/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/</a>
+                    <a href="https://www.yelow.ga/2020/05/24/qu-diao-chromium-de-jin-yong-kai-fa-zhe-kuo-zhan-ti-shi/">https://www.yelow.ga/2020/05/24/qu-diao-chromium-de-jin-yong-kai-fa-zhe-kuo-zhan-ti-shi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -571,8 +583,12 @@ SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/NotePad/">
-                                    <span class="chip bg-color">NotePad++</span>
+                                <a href="/tags/Chromium/">
+                                    <span class="chip bg-color">Chromium</span>
+                                </a>
+                            
+                                <a href="/tags/Edge/">
+                                    <span class="chip bg-color">Edge</span>
                                 </a>
                             
                         </div>
@@ -614,49 +630,51 @@ SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/05/10/shen-qing-freenom-yu-ming-de-zheng-que-zuo-fa/">
+                <a href="/2020/05/24/qu-diao-chromium-de-jin-yong-kai-fa-zhe-kuo-zhan-ti-shi/">
                     <div class="card-image">
                         
-                        <img src="https://s1.ax1x.com/2020/05/10/Y8Ak1s.jpg" class="responsive-img" alt="申请Freenom域名的正确做法">
+                        <img src="https://s1.ax1x.com/2020/05/24/YzCq91.png" class="responsive-img" alt="去掉Chromium的禁用开发者扩展提示">
                         
-                        <span class="card-title">申请Freenom域名的正确做法</span>
+                        <span class="card-title">去掉Chromium的禁用开发者扩展提示</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            其实这很简单哦
+                            Google也太不人性化了吧
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-10
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Computer-Skills/" class="post-category">
-                                    Computer Skills
+                            <a href="/categories/Software/" class="post-category">
+                                    Software
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Freenom/">
-                        <span class="chip bg-color">Freenom</span>
+                    <a href="/tags/Chromium/">
+                        <span class="chip bg-color">Chromium</span>
                     </a>
                     
-                    <a href="/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7/">
-                        <span class="chip bg-color">免费域名申请</span>
+                    <a href="/tags/Edge/">
+                        <span class="chip bg-color">Edge</span>
                     </a>
                     
                 </div>
@@ -670,23 +688,23 @@ SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/02/ti-zi/">
+                <a href="/2020/05/24/xin-jiu-edge-liu-lan-qi-gong-cun/">
                     <div class="card-image">
                         
-                        <img src="https://s1.ax1x.com/2020/05/16/Yc8q39.jpg" class="responsive-img" alt="梯子">
+                        <img src="https://s1.ax1x.com/2020/05/24/YxLOZq.png" class="responsive-img" alt="新旧Edge浏览器共存">
                         
-                        <span class="card-title">梯子</span>
+                        <span class="card-title">新旧Edge浏览器共存</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            vnp 科学上网 密码：a
+                            我的旧EDGE怎么不见了？
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
                             </span>
                         <span class="publish-author">
                             
@@ -703,8 +721,8 @@ SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%A2%AF%E5%AD%90/">
-                        <span class="chip bg-color">梯子</span>
+                    <a href="/tags/Edge/">
+                        <span class="chip bg-color">Edge</span>
                     </a>
                     
                 </div>

@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>去掉Chromium的禁用开发者扩展提示</title>
+      <link href="/2020/05/24/qu-diao-chromium-de-jin-yong-kai-fa-zhe-kuo-zhan-ti-shi/"/>
+      <url>/2020/05/24/qu-diao-chromium-de-jin-yong-kai-fa-zhe-kuo-zhan-ti-shi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="去掉Chromium的禁用开发者扩展提示"><a href="#去掉Chromium的禁用开发者扩展提示" class="headerlink" title="去掉Chromium的禁用开发者扩展提示"></a>去掉Chromium的禁用开发者扩展提示</h1><p>对于开发人员来说，Chrome显然是一个必需品。庞大的插件库十分方便。<br>但是Google不知为什么就加了这么一个弹出，十分恶心。</p><p>祭出大神的dll替换工具，可点击下载。</p><p><a href="去除Chrome请停用以开发者模式运行的扩展程序.rar">去除Chrome请停用以开发者模式运行的扩展程序</a></p><p>edge的二次开发做的不错，都把chrome.dll给改了。</p><p>像Cent Browser就没改，不过Cent和Chrome的图标确实有点像~~</p><p>安装目录在这里：</p><pre><code>C:\Program Files (x86)\Microsoft\Edge\Application\83.0.478.37</code></pre><blockquote><p><em>注意</em><br>这是默认的安装路径，不同的版本号可能有所不同！！！</p></blockquote><p>记得把Edge关了，然后我们把msedge.dll改成chrome.dll，把刚刚下载的软件解压，拷贝到edge根目录下（就是刚刚代码块里的）</p><p>用管理员模式运行“去除Chrome请停用以开发者模式运行的扩展程序”，</p><p><img src="https://s1.ax1x.com/2020/05/24/YziUL8.png" alt="YziUL8.png"></p><p>点<code>应用</code>，成功后，把dll的名字改回msedge.dll。</p><p>再打开edge。</p><p>是不是OK了？</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Chromium </tag>
+            
+            <tag> Edge </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>新旧Edge浏览器共存</title>
       <link href="/2020/05/24/xin-jiu-edge-liu-lan-qi-gong-cun/"/>
       <url>/2020/05/24/xin-jiu-edge-liu-lan-qi-gong-cun/</url>
