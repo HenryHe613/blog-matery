@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yelow.ga/"/>
-  <updated>2020-05-24T01:44:59.509Z</updated>
+  <updated>2020-05-24T02:20:08.984Z</updated>
   <id>https://www.yelow.ga/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.yelow.ga/2020/05/24/xin-jiu-edge-liu-lan-qi-gong-cun/"/>
     <id>https://www.yelow.ga/2020/05/24/xin-jiu-edge-liu-lan-qi-gong-cun/</id>
     <published>2020-05-24T00:41:03.000Z</published>
-    <updated>2020-05-24T01:44:59.509Z</updated>
+    <updated>2020-05-24T02:20:08.984Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,11 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/05/24/YxLOZq.png&quot; alt=&quot;YxLOZq.png&quot;&gt;&lt;br&gt;1、在Windows搜索中搜索组策略编辑器。&lt;/p&gt;
-&lt;p&gt;2、导航到计算机配置——》打开管理模板&amp;gt;
+          &lt;p&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/05/24/YxLOZq.png&quot; alt=&quot;YxLOZq.png&quot;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;~~
+1. 在Windows搜索中搜索组策略编辑器。
+
+2.
         
       
     

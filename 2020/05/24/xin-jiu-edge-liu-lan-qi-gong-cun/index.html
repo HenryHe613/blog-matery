@@ -461,7 +461,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    125
+                    228
                 </div>
                 
 
@@ -483,12 +483,30 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><img src="https://s1.ax1x.com/2020/05/24/YxLOZq.png" alt="YxLOZq.png"><br>1、在Windows搜索中搜索组策略编辑器。</p>
-<p>2、导航到计算机配置——》打开管理模板&gt; Microsoft Edge更新&gt;应用程序</p>
-<p>3、选择“允许Microsoft Edge并排浏览器体验”。</p>
-<p>4、点击“修改政策”设置。</p>
-<p>5、选择“启用”，然后单击“确定”。</p>
-<script>
+                <p><img src="https://s1.ax1x.com/2020/05/24/YxLOZq.png" alt="YxLOZq.png"></p>
+<pre><code>~~
+1. 在Windows搜索中搜索组策略编辑器。
+
+2. 导航到计算机配置——》打开管理模板&gt; Microsoft Edge更新&gt;应用程序
+
+3. 选择“允许Microsoft Edge并排浏览器体验”。
+
+4. 点击“修改政策”设置。
+
+5. 选择“启用”，然后单击“确定”。
+~~</code></pre><p>以上是网上的方法，Chromium Edge v83版已不适用。</p>
+<p>因为在gpedit里找不到<code>“允许Microsoft Edge并排浏览器体验”</code>。</p>
+<p>现在只能用注册表。</p>
+<p>把一下对应代码复制到.reg文件中，然后重新安装Chromium Edge就好了。</p>
+<p>添加旧EDGE</p>
+<pre><code>Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\EdgeUpdate]
+"Allowsxs"=dword:00000001</code></pre><p>移除旧EDGE</p>
+<pre><code>Windows Registry Editor Version 5.00
+
+-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\EdgeUpdate]
+"Allowsxs"=dword:00000001</code></pre><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -898,7 +916,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">3.7k</span>&nbsp;字
+                class="white-color">3.9k</span>&nbsp;字
             
             
             
