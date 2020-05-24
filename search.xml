@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>新旧Edge浏览器共存</title>
+      <link href="/2020/05/24/xin-jiu-edge-liu-lan-qi-gong-cun/"/>
+      <url>/2020/05/24/xin-jiu-edge-liu-lan-qi-gong-cun/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2020/05/24/YxLOZq.png" alt="YxLOZq.png"><br>1、在Windows搜索中搜索组策略编辑器。</p><p>2、导航到计算机配置——》打开管理模板&gt; Microsoft Edge更新&gt;应用程序</p><p>3、选择“允许Microsoft Edge并排浏览器体验”。</p><p>4、点击“修改政策”设置。</p><p>5、选择“启用”，然后单击“确定”。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Edge </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>更换Chromium内核浏览器无法上网</title>
       <link href="/2020/05/23/geng-huan-chromium-nei-he-liu-lan-qi-wu-fa-shang-wang/"/>
       <url>/2020/05/23/geng-huan-chromium-nei-he-liu-lan-qi-wu-fa-shang-wang/</url>
