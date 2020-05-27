@@ -56,3 +56,13 @@
         transform: translate(0, 0.5px) rotate(1.5deg);
     }
 }
+
+@font-face{
+    font-family: '02';
+    src: url('../font/02.ttf');
+}
+
+body{
+    font-family: '02';
+}
+
