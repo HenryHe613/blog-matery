@@ -39,9 +39,9 @@
       <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
     
     
-      <category term="Chromium" scheme="https://www.yelow.ga/tags/Chromium/"/>
-    
       <category term="Edge" scheme="https://www.yelow.ga/tags/Edge/"/>
+    
+      <category term="Chromium" scheme="https://www.yelow.ga/tags/Chromium/"/>
     
   </entry>
   
@@ -325,35 +325,6 @@
     
     
       <category term="项目" scheme="https://www.yelow.ga/tags/%E9%A1%B9%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一次使用Github+Hexo</title>
-    <link href="https://www.yelow.ga/2020/04/19/di-yi-ci-shi-yong-github-hexo/"/>
-    <id>https://www.yelow.ga/2020/04/19/di-yi-ci-shi-yong-github-hexo/</id>
-    <published>2020-04-19T11:57:46.000Z</published>
-    <updated>2020-05-16T11:32:43.708Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;以小白的眼光教你搭建Github-Hexo&quot;&gt;&lt;a href=&quot;#以小白的眼光教你搭建Github-Hexo&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Github" scheme="https://www.yelow.ga/tags/Github/"/>
-    
-      <category term="Hexo" scheme="https://www.yelow.ga/tags/Hexo/"/>
-    
-      <category term="博客" scheme="https://www.yelow.ga/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
