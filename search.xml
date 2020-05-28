@@ -281,6 +281,35 @@
     </entry>
     
     
+    
+    <entry>
+      <title>第一次使用Github+Hexo</title>
+      <link href="/2020/04/19/di-yi-ci-shi-yong-github-hexo/"/>
+      <url>/2020/04/19/di-yi-ci-shi-yong-github-hexo/</url>
+      
+        <content type="html"><![CDATA[<h1 id="以小白的眼光教你搭建Github-Hexo"><a href="#以小白的眼光教你搭建Github-Hexo" class="headerlink" title="以小白的眼光教你搭建Github+Hexo"></a>以小白的眼光教你搭建Github+Hexo</h1><p>   之前我接触过的博客程序，是用PHP的Wordpress。但是毕竟我是个初三学生，没法租服务器，也就放弃了搭建个人博客的想法。</p><p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1587307981577&amp;di=cdea9fc487d45efc2eb125834b95f0c7&amp;imgtype=0&amp;src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20190809%2F0ce331bec58c4cbf823ac58f32fdbdb9.jpeg" alt="我太难了"></p><p>但是后来，我在知乎上遇到了一个大佬，和我一样呢，也是初三。推荐一下TA的博客吧，做个友链。</p><p><img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3488729154,2763255392&amp;fm=26&amp;gp=0.jpg" alt="hh"></p><p>这是TA的Blog：</p><pre><code>https://blog.cyfan.top/ </code></pre><p>话不多说，直接讲怎么搭建Hexo。</p><h2 id="建立Github仓库"><a href="#建立Github仓库" class="headerlink" title="建立Github仓库"></a>建立Github仓库</h2><blockquote><p>注释：这个github仓库是用来放网站的！！！</p></blockquote><p>Github不用我多说，上官网 <a href="https://github.com" target="_blank" rel="noopener">https://github.com</a> .注册账号。英文不好的话emmm我也不能救你，用翻译软件吧。</p><p><img src="http://www.17qq.com/img_biaoqing/29545814.jpeg" alt="无能为力"></p><p>创建一个仓库，看图！！</p><p><img src="https://s1.ax1x.com/2020/04/19/JKOKfO.png" alt="创建仓库_1"></p><p><img src="https://s1.ax1x.com/2020/04/19/JKObAx.png" alt="创建仓库_2"></p><p>这时候，你的仓库应该是这样的。</p><p><img src="https://s1.ax1x.com/2020/04/25/JyCeJS.png" alt="仓库_1"></p><p>但这是我创建README.md文件后的样子，如果你没有创建README.md文件，那么你的仓库可能是这样的：</p><p><img src="https://s1.ax1x.com/2020/04/25/JyCmRg.png" alt="仓库_2"></p><p>不管怎样，都是对的。</p><p>然后，我们来创建Pages。</p><h2 id="创建Github-Pages"><a href="#创建Github-Pages" class="headerlink" title="创建Github Pages"></a>创建Github Pages</h2><p>在你的仓库上方，会有一个“Settings”按钮，点击它。</p><p><img src="https://s1.ax1x.com/2020/04/25/JyFKQe.png" alt="Settings"></p><p>往下翻，你会看到Github Pages栏，像下图一样：</p><p><img src="https://s1.ax1x.com/2020/04/25/JyFDwn.png" alt="Github Pages"></p><p>选择Choose a theme（翻译：选择一个主题），会出现以下界面：</p><p><img src="https://s1.ax1x.com/2020/04/25/JyEQL4.png" alt="Github Pages_2"></p><p>这样，会出现如下图所示的界面：</p><p><img src="https://s1.ax1x.com/2020/04/25/JyV6HJ.png" alt="Github Pages_3"></p><p>现在可以暂时不用管Github了。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Computer Skills </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
