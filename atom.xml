@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yelow.ga/"/>
-  <updated>2020-06-06T11:46:55.123Z</updated>
+  <updated>2020-06-06T12:27:54.394Z</updated>
   <id>https://www.yelow.ga/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo链接优化</title>
+    <link href="https://www.yelow.ga/876.html"/>
+    <id>https://www.yelow.ga/876.html</id>
+    <published>2020-06-06T12:00:16.000Z</published>
+    <updated>2020-06-06T12:27:54.394Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="Hexo" scheme="https://www.yelow.ga/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Matery添加在线聊天功能</title>

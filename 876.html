@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="史上最好用的编辑器, 南岩のBlog">
+    <meta name="keywords" content="Hexo链接优化, 南岩のBlog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>史上最好用的编辑器 | 南岩のBlog</title>
+    <title>Hexo链接优化 | 南岩のBlog</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/images/logo.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/libs/awesome/css/all.css">
@@ -291,12 +291,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://s1.ax1x.com/2020/05/16/YckZJU.md.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/henryhe613/pic/img/4602746.jfif')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">史上最好用的编辑器</h1>
+                    <h1 class="description center-align post-title">Hexo链接优化</h1>
                 </div>
             </div>
         </div>
@@ -413,8 +413,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/NotePad/">
-                                <span class="chip bg-color">NotePad++</span>
+                            <a href="/tags/Hexo/">
+                                <span class="chip bg-color">Hexo</span>
                             </a>
                         
                     </div>
@@ -438,7 +438,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-03
+                    2020-06-06
                 </div>
                 
 
@@ -452,7 +452,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    96
+                    373
                 </div>
                 
 
@@ -474,14 +474,42 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>之前用win自带的<code>记事本</code>，功能太鸡肋了。啥都没有，而且最不能忍受的就是，微软的程序猿<del>自己认为</del>很聪明，给UTF-8加了BOM。</p>
-<p>然后，许多代码出错emmm</p>
-<p>直接上链接：<a href="npp.7.8.5.Installer.x64.exe">这里，v7.8.5_x64</a></p>
-<p>附上哈希值，怕<code>CloudFlare</code>的<code>CDN</code>啥时候抽了，下载出错：</p>
-<pre><code>CRC32: 80A1EBD6
-MD5: CD8C07848895C989C81C9D88C8BFEA88
-SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试"><a href="#压力测试" class="headerlink" title="压力测试"></a>压力测试</h1><p><a href="a.zip">Start Test</a></p>
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>按照Matery官方的文档，我在安装Matery主题时，也安装了中文链接转拼音的插件，即<code>hexo-permalink-pinyin</code>插件。</p>
+<p>但是事后我发现，这个链接实在太长了，分享的时候着实很不方便。</p>
+<p>所以我找到了这个插件：<code>hexo-abbrlink</code></p>
+<h1 id="卸载hexo-permalink-pinyin插件"><a href="#卸载hexo-permalink-pinyin插件" class="headerlink" title="卸载hexo-permalink-pinyin插件"></a>卸载<code>hexo-permalink-pinyin</code>插件</h1><p>安装<code>hexo-abbrlink</code>之前必须卸载之前的插件，以免冲突。</p>
+<p>如果你没安装过这个插件，可以直接跳过这一步。</p>
+<p>右键Hexo根目录，点击<code>Git Bash Here</code>。</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">npm</span> uninstall hexo-permalink-pinyin<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>卸载之后，到Hexo根目录下的<code>_config.yml</code>中找到以下的配置并全部删除。</p>
+<pre class="line-numbers language-yaml"><code class="language-yaml"><span class="token key atrule">permalink_pinyin</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">separator</span><span class="token punctuation">:</span> <span class="token string">'-'</span> <span class="token comment" spellcheck="true"># default: '-'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>这样第一步就完成了。</p>
+<h1 id="安装hexo-abbrlink插件"><a href="#安装hexo-abbrlink插件" class="headerlink" title="安装hexo-abbrlink插件"></a>安装<code>hexo-abbrlink</code>插件</h1><p>右键Hexo根目录，点击<code>Git Bash Here</code>。</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-abbrlink --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>安装好后，在Hexo根目录下的<code>_config.yml</code>中粘贴以下的配置。</p>
+<pre class="line-numbers language-yml"><code class="language-yml">abbrlink:
+    alg: crc16
+    rep: hex<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>然后再在大约18行处找到<code>permalink</code>，参数改成<code>:abbrlink.html</code>或者<code>posts/:abbrlink.html</code></p>
+<p>具体的样子可以自己hexo g &amp;&amp; hexo s预览一下看看。</p>
+<p>我再解释一下<code>alg</code>和<code>rep</code>。</p>
+<p><code>alg</code>是算法，共有两种算法。一种是<code>crc16</code>和<code>crc32</code>。</p>
+<p><code>rep</code>是进制，共有两种进制。一种是<code>hex</code>和<code>dec</code>。</p>
+<p><code>hex</code>是十六进制，<code>dec</code>是十进制。</p>
+<p>下面是官方给出的例子，大家也可以自己尝试。</p>
+<pre><code>crc16 &amp; hex
+https://post.zz173.com/posts/66c8.html
 
+crc16 &amp; dec
+https://post.zz173.com/posts/65535.html
+
+crc32 &amp; hex
+https://post.zz173.com/posts/8ddf18fb.html
+
+crc32 &amp; dec
+https://post.zz173.com/posts/1690090958.html</code></pre>
             </div>
             <hr/>
 
@@ -506,7 +534,7 @@ SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.yelow.ga/d87e.html">https://www.yelow.ga/d87e.html</a>
+                    <a href="https://www.yelow.ga/876.html">https://www.yelow.ga/876.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -544,8 +572,8 @@ SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/NotePad/">
-                                    <span class="chip bg-color">NotePad++</span>
+                                <a href="/tags/Hexo/">
+                                    <span class="chip bg-color">Hexo</span>
                                 </a>
                             
                         </div>
@@ -847,49 +875,47 @@ SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/f3a0.html">
+                <a href="/876.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/05/10/Y8Ak1s.jpg" class="responsive-img" alt="申请Freenom域名的正确做法">
+                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/4602746.jfif" class="responsive-img" alt="Hexo链接优化">
                         
-                        <span class="card-title">申请Freenom域名的正确做法</span>
+                        <span class="card-title">Hexo链接优化</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            其实这很简单哦
+                            缩短链接长度
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-10
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-06
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Computer-Skills/" class="post-category">
-                                    Computer Skills
+                            <a href="/categories/Software/" class="post-category">
+                                    Software
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Freenom/">
-                        <span class="chip bg-color">Freenom</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7/">
-                        <span class="chip bg-color">免费域名申请</span>
+                    <a href="/tags/Hexo/">
+                        <span class="chip bg-color">Hexo</span>
                     </a>
                     
                 </div>
@@ -903,23 +929,23 @@ SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/c0a3.html">
+                <a href="/5741.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/05/16/Yc8q39.jpg" class="responsive-img" alt="梯子">
+                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/7468176.jpg" class="responsive-img" alt="Matery添加在线聊天功能">
                         
-                        <span class="card-title">梯子</span>
+                        <span class="card-title">Matery添加在线聊天功能</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            vnp 科学上网 密码：a
+                            就像右下角的聊天图标一样
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-05
                             </span>
                         <span class="publish-author">
                             
@@ -936,8 +962,16 @@ SHA-1: 820C75A6E7B5835AB01E45DE728AE3434500ABF5</code></pre><h1 id="压力测试
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%A2%AF%E5%AD%90/">
-                        <span class="chip bg-color">梯子</span>
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">博客</span>
+                    </a>
+                    
+                    <a href="/tags/Hexo/">
+                        <span class="chip bg-color">Hexo</span>
+                    </a>
+                    
+                    <a href="/tags/Tidio/">
+                        <span class="chip bg-color">Tidio</span>
                     </a>
                     
                 </div>
