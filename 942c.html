@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Matery添加在线聊天功能, 南岩のBlog">
+    <meta name="keywords" content="Valine配置及安装, 南岩のBlog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Matery添加在线聊天功能 | 南岩のBlog</title>
+    <title>Valine配置及安装 | 南岩のBlog</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/images/logo.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/libs/awesome/css/all.css">
@@ -291,12 +291,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/henryhe613/pic/img/7468176.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/henryhe613/pic/img/OIP.jfif')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Matery添加在线聊天功能</h1>
+                    <h1 class="description center-align post-title">Valine配置及安装</h1>
                 </div>
             </div>
         </div>
@@ -413,16 +413,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                <span class="chip bg-color">博客</span>
-                            </a>
-                        
                             <a href="/tags/Hexo/">
                                 <span class="chip bg-color">Hexo</span>
                             </a>
                         
-                            <a href="/tags/Tidio/">
-                                <span class="chip bg-color">Tidio</span>
+                            <a href="/tags/LeanCloud/">
+                                <span class="chip bg-color">LeanCloud</span>
+                            </a>
+                        
+                            <a href="/tags/Valine/">
+                                <span class="chip bg-color">Valine</span>
                             </a>
                         
                     </div>
@@ -446,21 +446,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-06-05
+                    2020-06-04
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-05
+                    2020-06-06
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    396
+                    332
                 </div>
                 
 
@@ -482,35 +482,43 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Matery主题默认支持两种在线聊天工具。一是DaoVoice，二是Tidio。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/06/05/tD38JS.png" alt="tD38JS.png"></p>
-<p>上面一点黑灰色的是Tidio，下面一点蓝色的是DaoVoice。（Tidio按钮的颜色有5种可以选，DaoVoice不清楚，没有深入研究过）</p>
-<p>我个人比较喜欢Tidio，毕竟长得好看哈哈。同时也不会挡住红色的主页按钮。</p>
-<p>两个同时开启也可以，但肯定是有点奇奇怪怪的。</p>
-<h1 id="安装TiDio-gt-去Tidio官网获取public-key"><a href="#安装TiDio-gt-去Tidio官网获取public-key" class="headerlink" title="安装TiDio=&gt;去Tidio官网获取public_key"></a>安装TiDio=&gt;去Tidio官网获取public_key</h1><p><a href="https://www.tidio.com/" target="_blank" rel="noopener">官网传送门</a></p>
-<p>注册不多讲，不需要实名认证。有点慢是肯定的，毕竟用了CloudFlare的CDN。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/06/05/tD8iOs.png" alt="tD8iOs.png"></p>
-<p>我们只需要Public Key，Private Key需要保管好，不能泄露。</p>
-<h1 id="安装Tidio-gt-在-config-yml中启用Tidio"><a href="#安装Tidio-gt-在-config-yml中启用Tidio" class="headerlink" title="安装Tidio=&gt;在_config.yml中启用Tidio"></a>安装Tidio=&gt;在_config.yml中启用Tidio</h1><p>打开主题文件夹的<code>_config.yml</code>，在大约468行找到Tidio。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/06/05/tD8a1e.png" alt="tD8a1e.png"></p>
-<p>把<code>enable</code>改为<code>true</code>，然后再<code>public_key</code>后填上从Tidio官网获取的Public Key。</p>
+                <h1 id="注册Valine并获取Appid和Appkey"><a href="#注册Valine并获取Appid和Appkey" class="headerlink" title="注册Valine并获取Appid和Appkey"></a>注册Valine并获取Appid和Appkey</h1><p>Valine注册很奇怪，不是去官网注册，而是去LeanCloud注册。</p>
 <blockquote>
-<p>注意</p>
-<p><code>public_key:</code>后面必须有一个空格，不然Hexo会报错。</p>
+<p>[!TIP]</p>
+<p>注意，免费版的Valine每天强制休眠6小时，也就是说，一天中有6小时无法评论。</p>
 </blockquote>
-<p>之后，hexo cl&amp;&amp;hexo g -d看看效果，还行吧？</p>
-<h1 id="安装DaoVoice-gt-去Tidio官网获取appid"><a href="#安装DaoVoice-gt-去Tidio官网获取appid" class="headerlink" title="安装DaoVoice=&gt;去Tidio官网获取appid"></a>安装DaoVoice=&gt;去Tidio官网获取appid</h1><p><a href="http://www.daovoice.io/" target="_blank" rel="noopener">官网传送门</a></p>
-<p>DaoVoice有点毛病，Github不能登录。微信我没尝试过，我就用了邮箱注册。而且这个邀请码在这里吓唬人，不填其实也不要紧的。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/06/05/tDJmM4.png" alt="tDJmM4.png"></p>
-<p>保管好API token，下面要用。</p>
-<h1 id="安装DaoVoice-gt-在-config-yml中启用DaoVoice"><a href="#安装DaoVoice-gt-在-config-yml中启用DaoVoice" class="headerlink" title="安装DaoVoice=&gt;在_config.yml中启用DaoVoice"></a>安装DaoVoice=&gt;在_config.yml中启用DaoVoice</h1><p>打开主题文件夹的<code>_config.yml</code>，在大约468行找到Tidio。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/06/05/tDJ8JK.png" alt="tDJ8JK.png"></p>
-<p>把<code>enable</code>改为<code>true</code>，然后再<code>app_id</code>后填上从DaoVoice官网获取的API token。</p>
+<p>Valine有两个版本，一个是国际版，还有一个是国内版。<br>国际版不需要实名认证，国内版需要实名认证。</p>
+<p>我选择国际版hh</p>
+<p>链接： <a href="https://console.leancloud.app/" target="_blank" rel="noopener">国际版</a> <a href="https://www.leancloud.cn/" target="_blank" rel="noopener">国内版</a></p>
+<p>注册不用我多说。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/20200604174953.png" alt=""></p>
+<p>点击<code>创建应用</code>,选择<code>开发版</code>，名字任意。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/20200604180405.png" alt=""></p>
+<p>进入项目，选择 设置=&gt;应用Keys=&gt;Credentials</p>
+<p>你可以看见AppID和AppKey。</p>
+<h1 id="Matery主题开启并配置Valine"><a href="#Matery主题开启并配置Valine" class="headerlink" title="Matery主题开启并配置Valine"></a>Matery主题开启并配置Valine</h1><p>打开主题文件的<code>_config.yml</code>，找到Valine，大概在303行左右。</p>
+<pre class="line-numbers language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># The configuration of the Valine comment module is not activated by default.</span>
+<span class="token comment" spellcheck="true"># To use it, activate the configuration item and set appId and appKey.</span>
+<span class="token comment" spellcheck="true"># Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.</span>
+<span class="token key atrule">valine</span><span class="token punctuation">:</span>
+  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">appId</span><span class="token punctuation">:</span> 
+  <span class="token key atrule">appKey</span><span class="token punctuation">:</span> 
+  <span class="token key atrule">notify</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">verify</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">visitor</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">avatar</span><span class="token punctuation">:</span> <span class="token string">'mm'</span> <span class="token comment" spellcheck="true"># Gravatar style : mm/identicon/monsterid/wavatar/retro/hide</span>
+  <span class="token key atrule">pageSize</span><span class="token punctuation">:</span> <span class="token number">10</span>
+  <span class="token key atrule">placeholder</span><span class="token punctuation">:</span> <span class="token string">'来不及解释了，快上车~~~'</span> <span class="token comment" spellcheck="true"># Comment Box placeholder</span>
+  <span class="token key atrule">background</span><span class="token punctuation">:</span> /medias/comment_bg.png<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>把<code>enalbe</code>改成true，appId和appKey改成刚刚从leancloud获取的，</p>
+<p>hexo cl&amp;&amp;hexo g&amp;&amp;hexo d看一下，应该就有Valine的评论区了。</p>
 <blockquote>
-<p>注意</p>
-<p><code>app_id:</code>后面必须有一个空格，不然Hexo会报错。</p>
+<p>[!WARNING]</p>
+<blockquote>
+<p>yaml语法规定，:后面必须要有一个<code>Space</code>！！！不然会出错</p>
 </blockquote>
-<p>之后，hexo cl&amp;&amp;hexo g -d看看效果。</p>
+</blockquote>
 
             </div>
             <hr/>
@@ -536,7 +544,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.yelow.ga/2020/06/05/%E6%B7%BB%E5%8A%A0Tidio%E5%9C%A8%E7%BA%BF%E8%81%8A%E5%A4%A9/">https://www.yelow.ga/2020/06/05/%E6%B7%BB%E5%8A%A0Tidio%E5%9C%A8%E7%BA%BF%E8%81%8A%E5%A4%A9/</a>
+                    <a href="https://www.yelow.ga/942c.html">https://www.yelow.ga/942c.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -574,16 +582,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                    <span class="chip bg-color">博客</span>
-                                </a>
-                            
                                 <a href="/tags/Hexo/">
                                     <span class="chip bg-color">Hexo</span>
                                 </a>
                             
-                                <a href="/tags/Tidio/">
-                                    <span class="chip bg-color">Tidio</span>
+                                <a href="/tags/LeanCloud/">
+                                    <span class="chip bg-color">LeanCloud</span>
+                                </a>
+                            
+                                <a href="/tags/Valine/">
+                                    <span class="chip bg-color">Valine</span>
                                 </a>
                             
                         </div>
@@ -885,12 +893,11 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/06/05/%E6%B7%BB%E5%8A%A0Tidio%E5%9C%A8%E7%BA%BF%E8%81%8A%E5%A4%A9/">
+                <a href="/5741.html">
                     <div class="card-image">
                         
                         <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/7468176.jpg" class="responsive-img" alt="Matery添加在线聊天功能">
@@ -905,9 +912,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-05
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-05
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -920,7 +927,6 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -947,18 +953,18 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/06/04/Valine%E9%85%8D%E7%BD%AE%E5%8F%8A%E5%AE%89%E8%A3%85/">
+                <a href="/b77d.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/OIP.jfif" class="responsive-img" alt="Valine配置及安装">
+                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/13540653.jfif" class="responsive-img" alt="VSCode更改中文和更改字体">
                         
-                        <span class="card-title">Valine配置及安装</span>
+                        <span class="card-title">VSCode更改中文和更改字体</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            注册LeanCloud
+                            VSCode比Notepad++更强大
                         
                     </div>
                     <div class="publish-info">
@@ -980,16 +986,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
-                    </a>
-                    
-                    <a href="/tags/LeanCloud/">
-                        <span class="chip bg-color">LeanCloud</span>
-                    </a>
-                    
-                    <a href="/tags/Valine/">
-                        <span class="chip bg-color">Valine</span>
+                    <a href="/tags/VSCode/">
+                        <span class="chip bg-color">VSCode</span>
                     </a>
                     
                 </div>

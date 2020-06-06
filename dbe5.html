@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Loading, 南岩のBlog">
+    <meta name="keywords" content="更换Chromium内核浏览器无法上网, 南岩のBlog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Loading | 南岩のBlog</title>
+    <title>更换Chromium内核浏览器无法上网 | 南岩のBlog</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/images/logo.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/libs/awesome/css/all.css">
@@ -291,12 +291,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/henryhe613/pic/img/屏幕截图(2).png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/YxPIl6.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Loading</h1>
+                    <h1 class="description center-align post-title">更换Chromium内核浏览器无法上网</h1>
                 </div>
             </div>
         </div>
@@ -413,8 +413,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
+                            <a href="/tags/Chromium/">
+                                <span class="chip bg-color">Chromium</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/">
+                                <span class="chip bg-color">浏览器</span>
+                            </a>
+                        
+                            <a href="/tags/vnp/">
+                                <span class="chip bg-color">vnp</span>
                             </a>
                         
                     </div>
@@ -438,7 +446,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-30
+                    2020-05-23
                 </div>
                 
 
@@ -452,14 +460,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    640
+                    473
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    1 分
                 </div>
                 
 
@@ -474,165 +482,39 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>在Hexo根目录下新建scripts文件夹，里面再新建loading-pages.js</p>
-<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">/* global hexo */</span>
-<span class="token string">"use strict"</span><span class="token punctuation">;</span>
-hexo<span class="token punctuation">.</span>extend<span class="token punctuation">.</span>filter<span class="token punctuation">.</span><span class="token function">register</span><span class="token punctuation">(</span><span class="token string">'after_render:html'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>htmlContent<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-     <span class="token keyword">const</span> injectHead <span class="token operator">=</span>
- <span class="token template-string"><span class="token string">`&lt;style type="text/css" lang="css">
-    #loading-container{
-        position: fixed;
-        top: 0;
-        left: 0;
-        min-height: 100vh;
-        width: 100vw;
-        z-index: 9999;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: #FFF;
-        text-align: center;
-        /* loader页面消失采用渐隐的方式*/
-        -webkit-transition: opacity 1s ease;
-        -moz-transition: opacity 1s ease;
-        -o-transition: opacity 1s ease;
-        transition: opacity 1s ease;
-    }
-    .loading-image{
-        width: 120px;
-        height: 50px;
-        transform: translate(-50%);
-    }
-
-    .loading-image div:nth-child(2) {
-        -webkit-animation: pacman-balls 1s linear 0s infinite;
-        animation: pacman-balls 1s linear 0s infinite
-    }
-
-    .loading-image div:nth-child(3) {
-        -webkit-animation: pacman-balls 1s linear .33s infinite;
-        animation: pacman-balls 1s linear .33s infinite
-    }
-
-    .loading-image div:nth-child(4) {
-        -webkit-animation: pacman-balls 1s linear .66s infinite;
-        animation: pacman-balls 1s linear .66s infinite
-    }
-
-    .loading-image div:nth-child(5) {
-        -webkit-animation: pacman-balls 1s linear .99s infinite;
-        animation: pacman-balls 1s linear .99s infinite
-    }
-
-   .loading-image div:first-of-type {
-        width: 0;
-        height: 0;
-        border: 25px solid #49b1f5;
-        border-right-color: transparent;
-        border-radius: 25px;
-        -webkit-animation: rotate_pacman_half_up .5s 0s infinite;
-        animation: rotate_pacman_half_up .5s 0s infinite;
-    }
-    .loading-image div:nth-child(2) {
-        width: 0;
-        height: 0;
-        border: 25px solid #49b1f5;
-        border-right-color: transparent;
-        border-radius: 25px;
-        -webkit-animation: rotate_pacman_half_down .5s 0s infinite;
-        animation: rotate_pacman_half_down .5s 0s infinite;
-        margin-top: -50px;
-    }
-    @-webkit-keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
-
-    @keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
-
-    @-webkit-keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
-
-    @keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
-
-    @-webkit-keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
-
-    @keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
-
-
-    .loading-image div:nth-child(3),
-    .loading-image div:nth-child(4),
-    .loading-image div:nth-child(5),
-    .loading-image div:nth-child(6){
-        background-color: #49b1f5;
-        width: 15px;
-        height: 15px;
-        border-radius: 100%;
-        margin: 2px;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        transform: translateY(-6.25px);
-        top: 25px;
-        left: 100px;
-    }
-    .loading-text{
-        margin-bottom: 20vh;
-        text-align: center;
-        color: #2c3e50;
-        font-size: 2rem;
-        box-sizing: border-box;
-        padding: 0 10px;
-        text-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    }
-    @media only screen and (max-width: 500px) {
-         .loading-text{
-            font-size: 1.5rem;
-         }
-    }
-    .fadeout {
-        opacity: 0;
-        filter: alpha(opacity=0);
-    }
-    /* logo出现动画 */
-    @-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
-    @keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);}}
- &lt;/style>
- &lt;script>
-(function () {
-    const loaded = function(){
-       setTimeout(function(){
-            const loader = document.getElementById("loading-container");
-            loader.className="fadeout" ;//使用渐隐的方法淡出loading page
-            // document.getElementById("body-wrap").style.display="flex";
-            setTimeout(function(){
-                loader.style.display="none";
-            },1000); 
-        },1000);//强制显示loading page 1s  
-    };
-    loaded();
-})()
- &lt;/script>`</span></span><span class="token punctuation">;</span>
-     <span class="token keyword">const</span> injectBody <span class="token operator">=</span> <span class="token template-string"><span class="token string">`
- &lt;div id="loading-container">
-     &lt;p class="loading-text">玩命加载中 . . . &lt;/p> 
-     &lt;div class="loading-image">
-         &lt;div>&lt;/div>
-         &lt;div>&lt;/div>
-         &lt;div>&lt;/div>
-         &lt;div>&lt;/div> 
-         &lt;div>&lt;/div>
-     &lt;/div>
- &lt;/div>`</span></span><span class="token punctuation">;</span>
-     <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token regex">/&lt;\/head>/gi</span><span class="token punctuation">.</span><span class="token function">test</span><span class="token punctuation">(</span>htmlContent<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-         <span class="token keyword">let</span> lastIndex <span class="token operator">=</span> htmlContent<span class="token punctuation">.</span><span class="token function">lastIndexOf</span><span class="token punctuation">(</span><span class="token string">'&lt;/head>'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-         htmlContent <span class="token operator">=</span> htmlContent<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> lastIndex<span class="token punctuation">)</span> <span class="token operator">+</span> injectHead <span class="token operator">+</span> htmlContent<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span>lastIndex<span class="token punctuation">,</span> htmlContent<span class="token punctuation">.</span>length<span class="token punctuation">)</span><span class="token punctuation">;</span>
-     <span class="token punctuation">}</span>
-     <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token regex">/&lt;body>/gi</span><span class="token punctuation">.</span><span class="token function">test</span><span class="token punctuation">(</span>htmlContent<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-         <span class="token keyword">let</span> index <span class="token operator">=</span> htmlContent<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span><span class="token string">'&lt;body>'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-         htmlContent <span class="token operator">=</span> htmlContent<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> index<span class="token punctuation">)</span> <span class="token operator">+</span> injectBody <span class="token operator">+</span> htmlContent<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span>index<span class="token punctuation">,</span> htmlContent<span class="token punctuation">.</span>length<span class="token punctuation">)</span><span class="token punctuation">;</span>
-     <span class="token punctuation">}</span>
-     <span class="token keyword">return</span> htmlContent<span class="token punctuation">;</span>
- <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
+                <h1 id="更换Chromium内核浏览器无法上网、"><a href="#更换Chromium内核浏览器无法上网、" class="headerlink" title="更换Chromium内核浏览器无法上网、"></a>更换Chromium内核浏览器无法上网、</h1><p>说实话我的英语也不是特别好，所以一直再找<code>Github</code>汉化版。但是<code>Cent Browser</code>内嵌的<code>Google翻译</code>不咋地，老是抽。看网友都用<code>360极速浏览器</code>，我也真香了，用了360还比较良心的极速浏览器。</p>
+<p>但是360也抽了。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/05/23/Yxi63t.png" alt="Yxi63t.png"></p>
+<p>于是我试试<code>遨游浏览器</code>，因为这个用的人也很多。</p>
+<p>也抽了。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/05/23/YxiTCn.png" alt="YxiTCn.png"></p>
+<p>我好奇啊，连续两个浏览器抽了。</p>
+<p>应该是我的环境问题。</p>
+<p>我先把遨游换成IE内核。</p>
+<p>“国产”浏览器大都是<code>Chromium</code>和<code>IE</code>双内核。</p>
+<p>嘿嘿，遨游好了~~</p>
+<p>那为什么Chromium不行？</p>
+<p>我猜是三个浏览器用同一个内核所致。</p>
+<p><code>Cent Browser</code>我用了<code>PP谷歌助手</code>，之前为了访问谷歌，找到的这么一个插件。</p>
+<p>附上<code>PP谷歌助手</code>在<a href="https://chrome.zzzmh.cn/index" target="_blank" rel="noopener">极简插件</a> 的链接：<a href="https://chrome.zzzmh.cn/info?token=kahndhhhcnignmbbpiobmdlgjhgfkfil" target="_blank" rel="noopener">PP谷歌助手</a></p>
+<p>之前我为了在家上网课不卡，把<code>PP谷歌助手</code>关了，结果没法上网。有种浏览器主页被劫持的味道。。。</p>
+<p>没办法，我把<code>PP谷歌助手</code>打开还。于是又可以上网了。</p>
+<p>所以我打算把<code>PP谷歌助手</code>移植到360上。</p>
+<h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><p>打开<code>Cent Browser</code>的<a href="chrome://extensions/">扩展页</a></p>
+<p>打开右上角（不同浏览器可能不同）的<code>开发者模式</code></p>
+<p>找到安装的<code>PP谷歌助手</code>。</p>
+<p>复制<code>PP谷歌助手</code>的ID。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/05/23/YxkmeU.png" alt="YxkmeU.png"></p>
+<p>我这里的ID是：</p>
+<pre><code>ID：kahndhhhcnignmbbpiobmdlgjhgfkfil</code></pre><blockquote>
+<p>注意：不同版本的Extension的ID是不同的！！！</p>
+</blockquote>
+<p>然后去资源管理器里搜索这个ID。</p>
+<p>我是用<code>Everything</code>，这个软件快。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/05/23/YxAS6x.png" alt="YxAS6x.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://raw.githubusercontent.com/HenryHe613/Pic/master/ScreenShot_20200523200316.png" alt=""><br>一般搜索出来只有红框里的第二个，我这里其他的四个是我自己创建的。</p>
+<p>如果是<code>Cent Browser</code>的用户，可以直接使用一下链接（记得改成自己的用户名和安装路径哦）：</p>
+<pre><code>C:\Users\{User Name}\AppData\Local\CentBrowser\User Data\Default\Extensions</code></pre>
             </div>
             <hr/>
 
@@ -657,7 +539,7 @@ hexo<span class="token punctuation">.</span>extend<span class="token punctuation
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.yelow.ga/2020/05/30/Loading/">https://www.yelow.ga/2020/05/30/Loading/</a>
+                    <a href="https://www.yelow.ga/dbe5.html">https://www.yelow.ga/dbe5.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -695,8 +577,16 @@ hexo<span class="token punctuation">.</span>extend<span class="token punctuation
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
+                                <a href="/tags/Chromium/">
+                                    <span class="chip bg-color">Chromium</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/">
+                                    <span class="chip bg-color">浏览器</span>
+                                </a>
+                            
+                                <a href="/tags/vnp/">
+                                    <span class="chip bg-color">vnp</span>
                                 </a>
                             
                         </div>
@@ -1002,23 +892,23 @@ hexo<span class="token punctuation">.</span>extend<span class="token punctuation
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/06/04/VSCode%E6%9B%B4%E6%94%B9%E4%B8%AD%E6%96%87%E5%92%8C%E6%9B%B4%E6%94%B9%E5%AD%97%E4%BD%93/">
+                <a href="/6799.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/13540653.jfif" class="responsive-img" alt="VSCode更改中文和更改字体">
+                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="/images/YxLOZq.png" class="responsive-img" alt="新旧Edge浏览器共存">
                         
-                        <span class="card-title">VSCode更改中文和更改字体</span>
+                        <span class="card-title">新旧Edge浏览器共存</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            VSCode比Notepad++更强大
+                            我的旧EDGE怎么不见了？
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-04
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
                         </span>
                         <span class="publish-author">
                             
@@ -1035,8 +925,8 @@ hexo<span class="token punctuation">.</span>extend<span class="token punctuation
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/VSCode/">
-                        <span class="chip bg-color">VSCode</span>
+                    <a href="/tags/Edge/">
+                        <span class="chip bg-color">Edge</span>
                     </a>
                     
                 </div>
@@ -1050,47 +940,36 @@ hexo<span class="token punctuation">.</span>extend<span class="token punctuation
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/30/CloudFlare%E7%9A%84Workers/">
+                <a href="/7b51.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="/images/tQrlhn.jpg" class="responsive-img" alt="CloudFlare的Workers">
                         
-                        <span class="card-title">CloudFlare的Workers</span>
+                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/blog/medias/featureimages/3.jpg" class="responsive-img" alt="今天的英语范文">
+                        
+                        <span class="card-title">今天的英语范文</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            回源IP加速访问
+                            卧槽，董芳居然在钉钉里发了范文！！！Dear Tom,    I am sorry to hear that you have trouble learning Chinese idioms. I understand but you sh
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-30
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-20
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Computer-Skills/" class="post-category">
-                                    Computer Skills
+                            <a href="/categories/Study/" class="post-category">
+                                    Study
                                 </a>
                             
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">博客</span>
-                    </a>
-                    
-                    <a href="/tags/CDN/">
-                        <span class="chip bg-color">CDN</span>
-                    </a>
-                    
                 </div>
                 
             </div>

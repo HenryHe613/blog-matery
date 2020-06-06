@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="去掉Chromium的禁用开发者扩展提示, 南岩のBlog">
+    <meta name="keywords" content="GitHub的raw无法访问, 南岩のBlog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>去掉Chromium的禁用开发者扩展提示 | 南岩のBlog</title>
+    <title>GitHub的raw无法访问 | 南岩のBlog</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/images/logo.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/libs/awesome/css/all.css">
@@ -291,12 +291,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/images/YzCq91.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/OIP.jfif')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">去掉Chromium的禁用开发者扩展提示</h1>
+                    <h1 class="description center-align post-title">GitHub的raw无法访问</h1>
                 </div>
             </div>
         </div>
@@ -413,12 +413,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Edge/">
-                                <span class="chip bg-color">Edge</span>
+                            <a href="/tags/hosts/">
+                                <span class="chip bg-color">hosts</span>
                             </a>
                         
-                            <a href="/tags/Chromium/">
-                                <span class="chip bg-color">Chromium</span>
+                            <a href="/tags/GitHub/">
+                                <span class="chip bg-color">GitHub</span>
                             </a>
                         
                     </div>
@@ -429,8 +429,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Software/" class="post-category">
-                                Software
+                            <a href="/categories/Computer-Skills/" class="post-category">
+                                Computer Skills
                             </a>
                         
                     </div>
@@ -442,21 +442,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-05-30
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-04
+                    2020-06-06
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    268
+                    93
                 </div>
                 
 
@@ -478,21 +478,16 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="去掉Chromium的禁用开发者扩展提示"><a href="#去掉Chromium的禁用开发者扩展提示" class="headerlink" title="去掉Chromium的禁用开发者扩展提示"></a>去掉Chromium的禁用开发者扩展提示</h1><p>对于开发人员来说，Chrome显然是一个必需品。庞大的插件库十分方便。<br>但是Google不知为什么就加了这么一个弹出，十分恶心。</p>
-<p>祭出大神的dll替换工具，可点击下载。</p>
-<p><a href="/images/去除Chrome请停用以开发者模式运行的扩展程序.rar">去除Chrome请停用以开发者模式运行的扩展程序_点击下载</a></p>
-<p>edge的二次开发做的不错，都把chrome.dll给改了。</p>
-<p>像Cent Browser就没改，不过Cent和Chrome的图标确实有点像~~</p>
-<p>安装目录在这里：</p>
-<pre><code>C:\Program Files (x86)\Microsoft\Edge\Application\83.0.478.37</code></pre><blockquote>
-<p><em>注意</em><br>这是默认的安装路径，不同的版本号可能有所不同！！！</p>
+                <p>raw.githubusercontent.com收到Qos无法访问</p>
+<p>其实没必要用梯子，修改hosts即可。</p>
+<p>这是网上大神的hosts：</p>
+<pre><code>199.232.4.133 raw.githubusercontent.com</code></pre><p>也可以去<a href="https://www.ipaddress.com/" target="_blank" rel="noopener">https://www.ipaddress.com/</a> 查</p>
+<p>这是我查得的：</p>
+<pre><code>199.232.68.133 raw.githubusercontent.com</code></pre><p>hosts文件在这里（Windows）</p>
+<pre><code>C:\Windows\System32\drivers\etc\hosts</code></pre><p>推荐UAC的Notepad，可以直接保存。</p>
+<blockquote>
+<p><strong>注意</strong><br>更新hosts后，需要cmd运行<code>ipconfig /flushdns</code>才行</p>
 </blockquote>
-<p>记得把Edge关了，然后我们把msedge.dll改成chrome.dll，把刚刚下载的软件解压，拷贝到edge根目录下（就是刚刚代码块里的）</p>
-<p>用管理员模式运行“去除Chrome请停用以开发者模式运行的扩展程序”，</p>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/05/24/YziUL8.png" alt="YziUL8.png"></p>
-<p>点<code>应用</code>，成功后，把dll的名字改回msedge.dll。</p>
-<p>再打开edge。</p>
-<p>是不是OK了？</p>
 
             </div>
             <hr/>
@@ -518,7 +513,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.yelow.ga/2020/05/24/%E5%8E%BB%E6%8E%89Chromium%E7%9A%84%E7%A6%81%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%E6%89%A9%E5%B1%95%E6%8F%90%E7%A4%BA/">https://www.yelow.ga/2020/05/24/%E5%8E%BB%E6%8E%89Chromium%E7%9A%84%E7%A6%81%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%E6%89%A9%E5%B1%95%E6%8F%90%E7%A4%BA/</a>
+                    <a href="https://www.yelow.ga/a15e.html">https://www.yelow.ga/a15e.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -556,12 +551,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Edge/">
-                                    <span class="chip bg-color">Edge</span>
+                                <a href="/tags/hosts/">
+                                    <span class="chip bg-color">hosts</span>
                                 </a>
                             
-                                <a href="/tags/Chromium/">
-                                    <span class="chip bg-color">Chromium</span>
+                                <a href="/tags/GitHub/">
+                                    <span class="chip bg-color">GitHub</span>
                                 </a>
                             
                         </div>
@@ -867,18 +862,18 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/30/GitHub%E7%9A%84raw%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/">
+                <a href="/9198.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="/images/OIP.jfif" class="responsive-img" alt="GitHub的raw无法访问">
+                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="/images/tQrlhn.jpg" class="responsive-img" alt="CloudFlare的Workers">
                         
-                        <span class="card-title">GitHub的raw无法访问</span>
+                        <span class="card-title">CloudFlare的Workers</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            修改hosts即可
+                            回源IP加速访问
                         
                     </div>
                     <div class="publish-info">
@@ -900,12 +895,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/hosts/">
-                        <span class="chip bg-color">hosts</span>
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">博客</span>
                     </a>
                     
-                    <a href="/tags/GitHub/">
-                        <span class="chip bg-color">GitHub</span>
+                    <a href="/tags/CDN/">
+                        <span class="chip bg-color">CDN</span>
                     </a>
                     
                 </div>
@@ -919,18 +914,18 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/24/%E6%96%B0%E6%97%A7Edge%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%B1%E5%AD%98/">
+                <a href="/7653.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="/images/YxLOZq.png" class="responsive-img" alt="新旧Edge浏览器共存">
+                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="/images/YzCq91.png" class="responsive-img" alt="去掉Chromium的禁用开发者扩展提示">
                         
-                        <span class="card-title">新旧Edge浏览器共存</span>
+                        <span class="card-title">去掉Chromium的禁用开发者扩展提示</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            我的旧EDGE怎么不见了？
+                            Google也太不人性化了吧
                         
                     </div>
                     <div class="publish-info">
@@ -954,6 +949,10 @@
                     
                     <a href="/tags/Edge/">
                         <span class="chip bg-color">Edge</span>
+                    </a>
+                    
+                    <a href="/tags/Chromium/">
+                        <span class="chip bg-color">Chromium</span>
                     </a>
                     
                 </div>
