@@ -53,7 +53,7 @@
     <link href="https://www.yelow.ga/2020/06/04/valine-pei-zhi-ji-an-zhuang/"/>
     <id>https://www.yelow.ga/2020/06/04/valine-pei-zhi-ji-an-zhuang/</id>
     <published>2020-06-04T09:39:48.000Z</published>
-    <updated>2020-06-04T12:40:22.652Z</updated>
+    <updated>2020-06-06T04:06:34.436Z</updated>
     
     <summary type="html">
     
@@ -68,6 +68,14 @@
     </summary>
     
     
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="Hexo" scheme="https://www.yelow.ga/tags/Hexo/"/>
+    
+      <category term="LeanCloud" scheme="https://www.yelow.ga/tags/LeanCloud/"/>
+    
+      <category term="Valine" scheme="https://www.yelow.ga/tags/Valine/"/>
     
   </entry>
   

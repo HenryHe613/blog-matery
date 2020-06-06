@@ -40,6 +40,22 @@
         <content type="html"><![CDATA[<h1 id="注册Valine并获取Appid和Appkey"><a href="#注册Valine并获取Appid和Appkey" class="headerlink" title="注册Valine并获取Appid和Appkey"></a>注册Valine并获取Appid和Appkey</h1><p>Valine注册很奇怪，不是去官网注册，而是去LeanCloud注册。</p><blockquote><p>[!TIP]</p><p>注意，免费版的Valine每天强制休眠6小时，也就是说，一天中有6小时无法评论。</p></blockquote><p>Valine有两个版本，一个是国际版，还有一个是国内版。<br>国际版不需要实名认证，国内版需要实名认证。</p><p>我选择国际版hh</p><p>链接： <a href="https://console.leancloud.app/" target="_blank" rel="noopener">国际版</a> <a href="https://www.leancloud.cn/" target="_blank" rel="noopener">国内版</a></p><p>注册不用我多说。</p><p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/20200604174953.png" alt=""></p><p>点击<code>创建应用</code>,选择<code>开发版</code>，名字任意。</p><p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/20200604180405.png" alt=""></p><p>进入项目，选择 设置=&gt;应用Keys=&gt;Credentials</p><p>你可以看见AppID和AppKey。</p><h1 id="Matery主题开启并配置Valine"><a href="#Matery主题开启并配置Valine" class="headerlink" title="Matery主题开启并配置Valine"></a>Matery主题开启并配置Valine</h1><p>打开主题文件的<code>_config.yml</code>，找到Valine，大概在303行左右。</p><pre class="line-numbers language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># The configuration of the Valine comment module is not activated by default.</span><span class="token comment" spellcheck="true"># To use it, activate the configuration item and set appId and appKey.</span><span class="token comment" spellcheck="true"># Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.</span><span class="token key atrule">valine</span><span class="token punctuation">:</span>  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>  <span class="token key atrule">appId</span><span class="token punctuation">:</span>   <span class="token key atrule">appKey</span><span class="token punctuation">:</span>   <span class="token key atrule">notify</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>  <span class="token key atrule">verify</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>  <span class="token key atrule">visitor</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>  <span class="token key atrule">avatar</span><span class="token punctuation">:</span> <span class="token string">'mm'</span> <span class="token comment" spellcheck="true"># Gravatar style : mm/identicon/monsterid/wavatar/retro/hide</span>  <span class="token key atrule">pageSize</span><span class="token punctuation">:</span> <span class="token number">10</span>  <span class="token key atrule">placeholder</span><span class="token punctuation">:</span> <span class="token string">'来不及解释了，快上车~~~'</span> <span class="token comment" spellcheck="true"># Comment Box placeholder</span>  <span class="token key atrule">background</span><span class="token punctuation">:</span> /medias/comment_bg.png<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>把<code>enalbe</code>改成true，appId和appKey改成刚刚从leancloud获取的，</p><p>hexo cl&amp;&amp;hexo g&amp;&amp;hexo d看一下，应该就有Valine的评论区了。</p><blockquote><p>[!WARNING]</p><blockquote><p>yaml语法规定，:后面必须要有一个<code>Space</code>！！！不然会出错</p></blockquote></blockquote>]]></content>
       
       
+      <categories>
+          
+          <category> Software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> LeanCloud </tag>
+            
+            <tag> Valine </tag>
+            
+        </tags>
       
     </entry>
     
