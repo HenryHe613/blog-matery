@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>拒绝使用Gitalk和Gitment</title>
+      <link href="/cd88.html"/>
+      <url>/cd88.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>之前我用的是Gitalk，毕竟方便啊，Matery主题自带，只需要配置OAuth就好了。</p><p>但是在V2XE里看见有人不推荐使用，我看了一下，也有点心有余悸。</p><p>同时Gitalk总是会抽，老是发不了评论。</p><h1 id="找Gitalk的OAuth"><a href="#找Gitalk的OAuth" class="headerlink" title="找Gitalk的OAuth"></a>找Gitalk的OAuth</h1><blockquote><p>以<a href="https://blog.xiaolegun.cn/" target="_blank" rel="noopener">xiaoleGun</a>的博客做例子，轻喷！！！</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606205635.png" alt=""></p><p>我找到了一个Gitalk，右键<code>另存为</code>。</p><p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606205747.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606210021.png" alt=""></p><p>html文件用VSCode打开，</p><p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606210218.png" alt=""></p><p>搜索<code>clientID</code>或者<code>clientSecret</code>，可以明显发现是明文保存。</p><p><code>clientID</code>和<code>clientSecret</code>的攻击方法我没研究过，但是根据Github和Gitalk官方的文档，这两个泄露是可以删除ID所有者的所有公有仓库的。可见危害之大。</p><h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>我写这篇博文是希望Gitalk和Gitment的作者可以引起重视，虽然还没有这种事件发生，但是这是个隐患。</p><p>希望看到本文的各位不要利用这个漏洞攻击，对攻击事件本人概不负责，本文提供学术交流，没有任何攻击倾向。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GitHub </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo链接优化</title>
       <link href="/876.html"/>
       <url>/876.html</url>

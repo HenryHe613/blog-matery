@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Valine配置及安装, 南岩のBlog">
+    <meta name="keywords" content="拒绝使用Gitalk和Gitment, 南岩のBlog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Valine配置及安装 | 南岩のBlog</title>
+    <title>拒绝使用Gitalk和Gitment | 南岩のBlog</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/images/logo.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/libs/awesome/css/all.css">
@@ -291,12 +291,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/henryhe613/pic/img/OIP.jfif')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://s1.ax1x.com/2020/06/06/tcekc9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Valine配置及安装</h1>
+                    <h1 class="description center-align post-title">拒绝使用Gitalk和Gitment</h1>
                 </div>
             </div>
         </div>
@@ -413,16 +413,12 @@
                     
                     <div class="article-tag">
                         
+                            <a href="/tags/GitHub/">
+                                <span class="chip bg-color">GitHub</span>
+                            </a>
+                        
                             <a href="/tags/Hexo/">
                                 <span class="chip bg-color">Hexo</span>
-                            </a>
-                        
-                            <a href="/tags/LeanCloud/">
-                                <span class="chip bg-color">LeanCloud</span>
-                            </a>
-                        
-                            <a href="/tags/Valine/">
-                                <span class="chip bg-color">Valine</span>
                             </a>
                         
                     </div>
@@ -446,7 +442,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-06-04
+                    2020-06-06
                 </div>
                 
 
@@ -460,7 +456,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    332
+                    254
                 </div>
                 
 
@@ -482,43 +478,22 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="注册Valine并获取Appid和Appkey"><a href="#注册Valine并获取Appid和Appkey" class="headerlink" title="注册Valine并获取Appid和Appkey"></a>注册Valine并获取Appid和Appkey</h1><p>Valine注册很奇怪，不是去官网注册，而是去LeanCloud注册。</p>
-<blockquote>
-<p>[!TIP]</p>
-<p>注意，免费版的Valine每天强制休眠6小时，也就是说，一天中有6小时无法评论。</p>
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>之前我用的是Gitalk，毕竟方便啊，Matery主题自带，只需要配置OAuth就好了。</p>
+<p>但是在V2XE里看见有人不推荐使用，我看了一下，也有点心有余悸。</p>
+<p>同时Gitalk总是会抽，老是发不了评论。</p>
+<h1 id="找Gitalk的OAuth"><a href="#找Gitalk的OAuth" class="headerlink" title="找Gitalk的OAuth"></a>找Gitalk的OAuth</h1><blockquote>
+<p>以<a href="https://blog.xiaolegun.cn/" target="_blank" rel="noopener">xiaoleGun</a>的博客做例子，轻喷！！！</p>
 </blockquote>
-<p>Valine有两个版本，一个是国际版，还有一个是国内版。<br>国际版不需要实名认证，国内版需要实名认证。</p>
-<p>我选择国际版hh</p>
-<p>链接： <a href="https://console.leancloud.app/" target="_blank" rel="noopener">国际版</a> <a href="https://www.leancloud.cn/" target="_blank" rel="noopener">国内版</a></p>
-<p>注册不用我多说。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/20200604174953.png" alt=""></p>
-<p>点击<code>创建应用</code>,选择<code>开发版</code>，名字任意。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/20200604180405.png" alt=""></p>
-<p>进入项目，选择 设置=&gt;应用Keys=&gt;Credentials</p>
-<p>你可以看见AppID和AppKey。</p>
-<h1 id="Matery主题开启并配置Valine"><a href="#Matery主题开启并配置Valine" class="headerlink" title="Matery主题开启并配置Valine"></a>Matery主题开启并配置Valine</h1><p>打开主题文件的<code>_config.yml</code>，找到Valine，大概在303行左右。</p>
-<pre class="line-numbers language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># The configuration of the Valine comment module is not activated by default.</span>
-<span class="token comment" spellcheck="true"># To use it, activate the configuration item and set appId and appKey.</span>
-<span class="token comment" spellcheck="true"># Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.</span>
-<span class="token key atrule">valine</span><span class="token punctuation">:</span>
-  <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-  <span class="token key atrule">appId</span><span class="token punctuation">:</span> 
-  <span class="token key atrule">appKey</span><span class="token punctuation">:</span> 
-  <span class="token key atrule">notify</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  <span class="token key atrule">verify</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-  <span class="token key atrule">visitor</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-  <span class="token key atrule">avatar</span><span class="token punctuation">:</span> <span class="token string">'mm'</span> <span class="token comment" spellcheck="true"># Gravatar style : mm/identicon/monsterid/wavatar/retro/hide</span>
-  <span class="token key atrule">pageSize</span><span class="token punctuation">:</span> <span class="token number">10</span>
-  <span class="token key atrule">placeholder</span><span class="token punctuation">:</span> <span class="token string">'来不及解释了，快上车~~~'</span> <span class="token comment" spellcheck="true"># Comment Box placeholder</span>
-  <span class="token key atrule">background</span><span class="token punctuation">:</span> /medias/comment_bg.png<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>把<code>enalbe</code>改成true，appId和appKey改成刚刚从leancloud获取的，</p>
-<p>hexo cl&amp;&amp;hexo g&amp;&amp;hexo d看一下，应该就有Valine的评论区了。</p>
-<blockquote>
-<p>[!WARNING]</p>
-<blockquote>
-<p>yaml语法规定，:后面必须要有一个<code>Space</code>！！！不然会出错</p>
-</blockquote>
-</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606205635.png" alt=""></p>
+<p>我找到了一个Gitalk，右键<code>另存为</code>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606205747.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606210021.png" alt=""></p>
+<p>html文件用VSCode打开，</p>
+<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606210218.png" alt=""></p>
+<p>搜索<code>clientID</code>或者<code>clientSecret</code>，可以明显发现是明文保存。</p>
+<p><code>clientID</code>和<code>clientSecret</code>的攻击方法我没研究过，但是根据Github和Gitalk官方的文档，这两个泄露是可以删除ID所有者的所有公有仓库的。可见危害之大。</p>
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>我写这篇博文是希望Gitalk和Gitment的作者可以引起重视，虽然还没有这种事件发生，但是这是个隐患。</p>
+<p>希望看到本文的各位不要利用这个漏洞攻击，对攻击事件本人概不负责，本文提供学术交流，没有任何攻击倾向。</p>
 
             </div>
             <hr/>
@@ -544,7 +519,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.yelow.ga/942c.html">https://www.yelow.ga/942c.html</a>
+                    <a href="https://www.yelow.ga/cd88.html">https://www.yelow.ga/cd88.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -582,16 +557,12 @@
                     
                         <div class="article-tag">
                             
+                                <a href="/tags/GitHub/">
+                                    <span class="chip bg-color">GitHub</span>
+                                </a>
+                            
                                 <a href="/tags/Hexo/">
                                     <span class="chip bg-color">Hexo</span>
-                                </a>
-                            
-                                <a href="/tags/LeanCloud/">
-                                    <span class="chip bg-color">LeanCloud</span>
-                                </a>
-                            
-                                <a href="/tags/Valine/">
-                                    <span class="chip bg-color">Valine</span>
                                 </a>
                             
                         </div>
@@ -893,28 +864,29 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/5741.html">
+                <a href="/cd88.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/7468176.jpg" class="responsive-img" alt="Matery添加在线聊天功能">
+                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/06/06/tcekc9.jpg" class="responsive-img" alt="拒绝使用Gitalk和Gitment">
                         
-                        <span class="card-title">Matery添加在线聊天功能</span>
+                        <span class="card-title">拒绝使用Gitalk和Gitment</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            就像右下角的聊天图标一样
+                            他们会泄露OAuth的密钥
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-05
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-06
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -927,19 +899,16 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">博客</span>
+                    <a href="/tags/GitHub/">
+                        <span class="chip bg-color">GitHub</span>
                     </a>
                     
                     <a href="/tags/Hexo/">
                         <span class="chip bg-color">Hexo</span>
-                    </a>
-                    
-                    <a href="/tags/Tidio/">
-                        <span class="chip bg-color">Tidio</span>
                     </a>
                     
                 </div>
@@ -953,23 +922,23 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/b77d.html">
+                <a href="/876.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/13540653.jfif" class="responsive-img" alt="VSCode更改中文和更改字体">
+                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/4602746.jfif" class="responsive-img" alt="Hexo链接优化">
                         
-                        <span class="card-title">VSCode更改中文和更改字体</span>
+                        <span class="card-title">Hexo链接优化</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            VSCode比Notepad++更强大
+                            缩短链接长度
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-06
                             </span>
                         <span class="publish-author">
                             
@@ -986,8 +955,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/VSCode/">
-                        <span class="chip bg-color">VSCode</span>
+                    <a href="/tags/Hexo/">
+                        <span class="chip bg-color">Hexo</span>
                     </a>
                     
                 </div>
