@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>南岩のBlog</title>
+  
+  <subtitle>南岩のBlog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.yelow.ga/"/>
+  <updated>2020-06-05T00:47:56.644Z</updated>
+  <id>https://www.yelow.ga/</id>
+  
+  <author>
+    <name>南岩</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Matery添加在线聊天功能</title>
+    <link href="https://www.yelow.ga/2020/06/05/tian-jia-tidio-zai-xian-liao-tian/"/>
+    <id>https://www.yelow.ga/2020/06/05/tian-jia-tidio-zai-xian-liao-tian/</id>
+    <published>2020-06-04T23:51:36.000Z</published>
+    <updated>2020-06-05T00:47:56.644Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;Matery主题默认支持两种在线聊天工具。一是DaoVoice，二是Tidio。&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="博客" scheme="https://www.yelow.ga/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="Hexo" scheme="https://www.yelow.ga/tags/Hexo/"/>
+    
+      <category term="Tidio" scheme="https://www.yelow.ga/tags/Tidio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Valine配置及安装</title>
+    <link href="https://www.yelow.ga/2020/06/04/valine-pei-zhi-ji-an-zhuang/"/>
+    <id>https://www.yelow.ga/2020/06/04/valine-pei-zhi-ji-an-zhuang/</id>
+    <published>2020-06-04T09:39:48.000Z</published>
+    <updated>2020-06-04T12:40:22.652Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;注册Valine并获取Appid和Appkey&quot;&gt;&lt;a href=&quot;#注册Valine并获取Appid和Appkey&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>VSCode更改中文和更改字体</title>
+    <link href="https://www.yelow.ga/2020/06/04/vscode-geng-gai-zhong-wen-he-geng-gai-zi-ti/"/>
+    <id>https://www.yelow.ga/2020/06/04/vscode-geng-gai-zhong-wen-he-geng-gai-zi-ti/</id>
+    <published>2020-06-04T09:02:59.000Z</published>
+    <updated>2020-06-04T10:23:06.901Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;VSCode更改中文&quot;&gt;&lt;a href=&quot;#VSCode更改中文&quot; class=&quot;headerlink&quot; title=&quot;VSCode更改中文&quot;&gt;&lt;/a&gt;VSCode更改中文&lt;/h1&gt;&lt;p&gt;前提是你得安装了VSCode。下载地址：&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="VSCode" scheme="https://www.yelow.ga/tags/VSCode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Loading</title>
+    <link href="https://www.yelow.ga/2020/05/30/loading/"/>
+    <id>https://www.yelow.ga/2020/05/30/loading/</id>
+    <published>2020-05-30T13:29:47.000Z</published>
+    <updated>2020-06-04T03:56:38.548Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在Hexo根目录下新建scripts文件夹，里面再新建loading-pages.js&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="Hexo" scheme="https://www.yelow.ga/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CloudFlare的Workers</title>
+    <link href="https://www.yelow.ga/2020/05/30/cloudflare-de-workers/"/>
+    <id>https://www.yelow.ga/2020/05/30/cloudflare-de-workers/</id>
+    <published>2020-05-30T13:14:07.000Z</published>
+    <updated>2020-06-04T03:50:53.234Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre class=&quot;line-numbers language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&#39;use strict&#39;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Computer Skills" scheme="https://www.yelow.ga/categories/Computer-Skills/"/>
+    
+    
+      <category term="博客" scheme="https://www.yelow.ga/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="CDN" scheme="https://www.yelow.ga/tags/CDN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub的raw无法访问</title>
+    <link href="https://www.yelow.ga/2020/05/30/github-de-raw-wu-fa-fang-wen/"/>
+    <id>https://www.yelow.ga/2020/05/30/github-de-raw-wu-fa-fang-wen/</id>
+    <published>2020-05-30T12:13:45.000Z</published>
+    <updated>2020-06-04T01:47:33.675Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;raw.githubusercontent.com收到Qos无法访问&lt;/p&gt;
+&lt;p&gt;其实没必要用梯子，修改hosts即可。&lt;/p&gt;
+&lt;p&gt;这是网上大神的hosts：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;199.232.4.133
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Computer Skills" scheme="https://www.yelow.ga/categories/Computer-Skills/"/>
+    
+    
+      <category term="hosts" scheme="https://www.yelow.ga/tags/hosts/"/>
+    
+      <category term="GitHub" scheme="https://www.yelow.ga/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>去掉Chromium的禁用开发者扩展提示</title>
+    <link href="https://www.yelow.ga/2020/05/24/qu-diao-chromium-de-jin-yong-kai-fa-zhe-kuo-zhan-ti-shi/"/>
+    <id>https://www.yelow.ga/2020/05/24/qu-diao-chromium-de-jin-yong-kai-fa-zhe-kuo-zhan-ti-shi/</id>
+    <published>2020-05-24T02:24:23.000Z</published>
+    <updated>2020-06-04T08:53:34.275Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;去掉Chromium的禁用开发者扩展提示&quot;&gt;&lt;a href=&quot;#去掉Chromium的禁用开发者扩展提示&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="Edge" scheme="https://www.yelow.ga/tags/Edge/"/>
+    
+      <category term="Chromium" scheme="https://www.yelow.ga/tags/Chromium/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新旧Edge浏览器共存</title>
+    <link href="https://www.yelow.ga/2020/05/24/xin-jiu-edge-liu-lan-qi-gong-cun/"/>
+    <id>https://www.yelow.ga/2020/05/24/xin-jiu-edge-liu-lan-qi-gong-cun/</id>
+    <published>2020-05-24T00:41:03.000Z</published>
+    <updated>2020-06-04T03:56:44.486Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif&quot; data-original=&quot;https://s1.ax1x.com/2020/05/24/YxLOZq.png&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="Edge" scheme="https://www.yelow.ga/tags/Edge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更换Chromium内核浏览器无法上网</title>
+    <link href="https://www.yelow.ga/2020/05/23/geng-huan-chromium-nei-he-liu-lan-qi-wu-fa-shang-wang/"/>
+    <id>https://www.yelow.ga/2020/05/23/geng-huan-chromium-nei-he-liu-lan-qi-wu-fa-shang-wang/</id>
+    <published>2020-05-23T11:34:03.000Z</published>
+    <updated>2020-06-04T01:48:14.794Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;更换Chromium内核浏览器无法上网、&quot;&gt;&lt;a href=&quot;#更换Chromium内核浏览器无法上网、&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="Chromium" scheme="https://www.yelow.ga/tags/Chromium/"/>
+    
+      <category term="浏览器" scheme="https://www.yelow.ga/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+      <category term="vnp" scheme="https://www.yelow.ga/tags/vnp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今天的英语范文</title>
+    <link href="https://www.yelow.ga/2020/05/20/jin-tian-de-ying-yu-fan-wen/"/>
+    <id>https://www.yelow.ga/2020/05/20/jin-tian-de-ying-yu-fan-wen/</id>
+    <published>2020-05-20T10:11:55.000Z</published>
+    <updated>2020-05-22T12:49:33.077Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;卧槽，董芳居然在钉钉里发了范文！！！&quot;&gt;&lt;a href=&quot;#卧槽，董芳居然在钉钉里发了范文！！！&quot; class=&quot;headerlink&quot; title=&quot;卧槽，董芳居然在钉钉里发了范文！！！&quot;&gt;&lt;/a&gt;卧槽，董芳居然在钉钉里发了范文！！！&lt;/h1&gt;&lt;p&gt;Dear
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Study" scheme="https://www.yelow.ga/categories/Study/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Windows软件下载技巧</title>
+    <link href="https://www.yelow.ga/2020/05/17/windows-ruan-jian-xia-zai-ji-qiao/"/>
+    <id>https://www.yelow.ga/2020/05/17/windows-ruan-jian-xia-zai-ji-qiao/</id>
+    <published>2020-05-17T09:08:51.000Z</published>
+    <updated>2020-05-22T12:50:00.398Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;你有遇到过这种情况吗？&quot;&gt;&lt;a href=&quot;#你有遇到过这种情况吗？&quot; class=&quot;headerlink&quot; title=&quot;你有遇到过这种情况吗？&quot;&gt;&lt;/a&gt;你有遇到过这种情况吗？&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="软件" scheme="https://www.yelow.ga/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电信网关F612破解</title>
+    <link href="https://www.yelow.ga/2020/05/17/dian-xin-wang-guan-f612-po-jie/"/>
+    <id>https://www.yelow.ga/2020/05/17/dian-xin-wang-guan-f612-po-jie/</id>
+    <published>2020-05-17T01:57:00.000Z</published>
+    <updated>2020-06-04T03:54:09.352Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;电信家庭网关中兴F612破解超级账号&quot;&gt;&lt;a href=&quot;#电信家庭网关中兴F612破解超级账号&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Computer Skills" scheme="https://www.yelow.ga/categories/Computer-Skills/"/>
+    
+    
+      <category term="电信" scheme="https://www.yelow.ga/tags/%E7%94%B5%E4%BF%A1/"/>
+    
+      <category term="破解" scheme="https://www.yelow.ga/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>个人常用网址/代码</title>
+    <link href="https://www.yelow.ga/2020/05/16/ge-ren-chang-yong-wang-zhi-dai-ma/"/>
+    <id>https://www.yelow.ga/2020/05/16/ge-ren-chang-yong-wang-zhi-dai-ma/</id>
+    <published>2020-05-16T12:08:44.000Z</published>
+    <updated>2020-05-31T01:59:57.691Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;建站&quot;&gt;&lt;a href=&quot;#建站&quot; class=&quot;headerlink&quot; title=&quot;建站&quot;&gt;&lt;/a&gt;建站&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://imgchr.com/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Computer Skills" scheme="https://www.yelow.ga/categories/Computer-Skills/"/>
+    
+    
+      <category term="网址and代码" scheme="https://www.yelow.ga/tags/%E7%BD%91%E5%9D%80and%E4%BB%A3%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>申请Freenom域名的正确做法</title>
+    <link href="https://www.yelow.ga/2020/05/10/shen-qing-freenom-yu-ming-de-zheng-que-zuo-fa/"/>
+    <id>https://www.yelow.ga/2020/05/10/shen-qing-freenom-yu-ming-de-zheng-que-zuo-fa/</id>
+    <published>2020-05-10T11:20:31.000Z</published>
+    <updated>2020-05-22T11:28:16.266Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;申请Freenom域名的正确做法&quot;&gt;&lt;a href=&quot;#申请Freenom域名的正确做法&quot; class=&quot;headerlink&quot; title=&quot;申请Freenom域名的正确做法&quot;&gt;&lt;/a&gt;申请Freenom域名的正确做法&lt;/h1&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Computer Skills" scheme="https://www.yelow.ga/categories/Computer-Skills/"/>
+    
+    
+      <category term="Freenom" scheme="https://www.yelow.ga/tags/Freenom/"/>
+    
+      <category term="免费域名申请" scheme="https://www.yelow.ga/tags/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>史上最好用的编辑器</title>
+    <link href="https://www.yelow.ga/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/"/>
+    <id>https://www.yelow.ga/2020/05/03/shi-shang-zui-hao-yong-de-bian-ji-qi/</id>
+    <published>2020-05-03T12:05:05.000Z</published>
+    <updated>2020-05-22T12:28:17.578Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;之前用win自带的&lt;code&gt;记事本&lt;/code&gt;，功能太鸡肋了。啥都没有，而且最不能忍受的就是，微软的程序猿&lt;del&gt;自己认为&lt;/del&gt;很聪明，给UTF-8加了BOM。&lt;/p&gt;
+&lt;p&gt;然后，许多代码出错emmm&lt;/p&gt;
+&lt;p&gt;直接上链接：&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="NotePad++" scheme="https://www.yelow.ga/tags/NotePad/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>梯子</title>
+    <link href="https://www.yelow.ga/2020/05/02/ti-zi/"/>
+    <id>https://www.yelow.ga/2020/05/02/ti-zi/</id>
+    <published>2020-05-02T08:18:06.000Z</published>
+    <updated>2020-05-31T02:00:16.051Z</updated>
+    
+    <summary type="html">
+    
+      Here&#39;s something encrypted, password is required to continue reading.
+    
+    </summary>
+    
+    
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="梯子" scheme="https://www.yelow.ga/tags/%E6%A2%AF%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Yellow Pages</title>
+    <link href="https://www.yelow.ga/2020/04/25/yellow-pages/"/>
+    <id>https://www.yelow.ga/2020/04/25/yellow-pages/</id>
+    <published>2020-04-25T09:16:53.000Z</published>
+    <updated>2020-06-04T07:51:18.192Z</updated>
+    
+    <summary type="html">
+    
+      Here&#39;s something encrypted, password is required to continue reading.
+    
+    </summary>
+    
+    
+      <category term="Study" scheme="https://www.yelow.ga/categories/Study/"/>
+    
+    
+      <category term="项目" scheme="https://www.yelow.ga/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一次使用GitHub+Hexo</title>
+    <link href="https://www.yelow.ga/2020/04/19/di-yi-ci-shi-yong-github-hexo/"/>
+    <id>https://www.yelow.ga/2020/04/19/di-yi-ci-shi-yong-github-hexo/</id>
+    <published>2020-04-19T11:57:46.000Z</published>
+    <updated>2020-05-30T23:46:12.972Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;以小白的眼光教你搭建Github-Hexo&quot;&gt;&lt;a href=&quot;#以小白的眼光教你搭建Github-Hexo&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Computer Skills" scheme="https://www.yelow.ga/categories/Computer-Skills/"/>
+    
+    
+      <category term="博客" scheme="https://www.yelow.ga/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="GitHub" scheme="https://www.yelow.ga/tags/GitHub/"/>
+    
+      <category term="Hexo" scheme="https://www.yelow.ga/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
