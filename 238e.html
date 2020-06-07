@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="拒绝使用Gitalk和Gitment, 南岩のBlog">
+    <meta name="keywords" content="发现Gridea这块新大陆, 南岩のBlog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>拒绝使用Gitalk和Gitment | 南岩のBlog</title>
+    <title>发现Gridea这块新大陆 | 南岩のBlog</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/images/logo.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/henryhe613/blog/libs/awesome/css/all.css">
@@ -291,12 +291,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://s1.ax1x.com/2020/06/06/tcekc9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/henryhe613/blog/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">拒绝使用Gitalk和Gitment</h1>
+                    <h1 class="description center-align post-title">发现Gridea这块新大陆</h1>
                 </div>
             </div>
         </div>
@@ -411,29 +411,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/GitHub/">
-                                <span class="chip bg-color">GitHub</span>
-                            </a>
-                        
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/Software/" class="post-category">
-                                Software
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -442,21 +425,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-06-06
+                    2020-06-07
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-06
+                    2020-06-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    254
+                    18
                 </div>
                 
 
@@ -478,22 +461,8 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>之前我用的是Gitalk，毕竟方便啊，Matery主题自带，只需要配置OAuth就好了。</p>
-<p>但是在V2XE里看见有人不推荐使用，我看了一下，也有点心有余悸。</p>
-<p>同时Gitalk总是会抽，老是发不了评论。</p>
-<h1 id="找Gitalk的OAuth"><a href="#找Gitalk的OAuth" class="headerlink" title="找Gitalk的OAuth"></a>找Gitalk的OAuth</h1><blockquote>
-<p>以<a href="https://blog.xiaolegun.cn/" target="_blank" rel="noopener">xiaoleGun</a>的博客做例子，轻喷！！！</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606205635.png" alt=""></p>
-<p>我找到了一个Gitalk，右键<code>另存为</code>。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606205747.png" alt=""></p>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606210021.png" alt=""></p>
-<p>html文件用VSCode打开，</p>
-<p><img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/20200606210218.png" alt=""></p>
-<p>搜索<code>clientID</code>或者<code>clientSecret</code>，可以明显发现是明文保存。</p>
-<p><code>clientID</code>和<code>clientSecret</code>的攻击方法我没研究过，但是根据Github和Gitalk官方的文档，这两个泄露是可以删除ID所有者的所有公有仓库的。可见危害之大。</p>
-<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>我写这篇博文是希望Gitalk和Gitment的作者可以引起重视，虽然还没有这种事件发生，但是这是个隐患。</p>
-<p>希望看到本文的各位不要利用这个漏洞攻击，对攻击事件本人概不负责，本文提供学术交流，没有任何攻击倾向。</p>
+                <p>今天没时间了，先上我的Blog2</p>
+<p><a href="https://henryhe613.github.io/blog3/" target="_blank" rel="noopener">南岩的另一个Blog</a></p>
 
             </div>
             <hr/>
@@ -519,7 +488,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.yelow.ga/cd88.html">https://www.yelow.ga/cd88.html</a>
+                    <a href="https://www.yelow.ga/238e.html">https://www.yelow.ga/238e.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -556,15 +525,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/GitHub/">
-                                    <span class="chip bg-color">GitHub</span>
-                                </a>
-                            
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -864,9 +825,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/238e.html">
                     <div class="card-image">
@@ -886,9 +848,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-07
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-07
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -897,6 +859,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -907,18 +870,18 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/876.html">
+                <a href="/cd88.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://cdn.jsdelivr.net/gh/henryhe613/pic/img/4602746.jfif" class="responsive-img" alt="Hexo链接优化">
+                        <img src="https://cdn.jsdelivr.net/gh/henryhe613/pic/images/loading.gif" data-original="https://s1.ax1x.com/2020/06/06/tcekc9.jpg" class="responsive-img" alt="拒绝使用Gitalk和Gitment">
                         
-                        <span class="card-title">Hexo链接优化</span>
+                        <span class="card-title">拒绝使用Gitalk和Gitment</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            缩短链接长度
+                            他们会泄露OAuth的密钥
                         
                     </div>
                     <div class="publish-info">
@@ -939,6 +902,10 @@
                 </div>
                 
                 <div class="card-action article-tags">
+                    
+                    <a href="/tags/GitHub/">
+                        <span class="chip bg-color">GitHub</span>
+                    </a>
                     
                     <a href="/tags/Hexo/">
                         <span class="chip bg-color">Hexo</span>
