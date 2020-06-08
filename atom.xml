@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yelow.ga/"/>
-  <updated>2020-06-07T12:15:19.157Z</updated>
+  <updated>2020-06-08T11:26:28.735Z</updated>
   <id>https://www.yelow.ga/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.yelow.ga/238e.html"/>
     <id>https://www.yelow.ga/238e.html</id>
     <published>2020-06-07T12:13:19.000Z</published>
-    <updated>2020-06-07T12:15:19.157Z</updated>
+    <updated>2020-06-08T11:26:28.735Z</updated>
     
     <summary type="html">
     
@@ -37,6 +37,12 @@
     </summary>
     
     
+      <category term="Software" scheme="https://www.yelow.ga/categories/Software/"/>
+    
+    
+      <category term="博客" scheme="https://www.yelow.ga/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="软件" scheme="https://www.yelow.ga/tags/%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
